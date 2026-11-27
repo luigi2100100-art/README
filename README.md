@@ -6,4 +6,4 @@ Automated FDA/FTC/platform risk screening for supplement and wellness marketing 
 - Spec: [SPEC_v2.md](SPEC_v2.md)
 - Rules for building: [CLAUDE.md](CLAUDE.md)
 
-Status: build steps 1–3 of 13 done. See [PROGRESS.md](PROGRESS.md).
+Status: build steps 1–4 of 13 done. See [PROGRESS.md](PROGRESS.md).

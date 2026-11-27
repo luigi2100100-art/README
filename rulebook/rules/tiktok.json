@@ -1,0 +1,126 @@
+[
+  {
+    "id": "TT-WM-01",
+    "scope": "TikTok",
+    "title": "TikTok: no exaggerated weight or muscle claims; 18+ only",
+    "category": "platform_weight_claims",
+    "rule_summary": "Weight-loss or muscle-gain claims must be restricted to 18+ and framed around a healthy lifestyle. They can't be unrealistic, suggest the product works without diet or exercise, or say results are easy or guaranteed.",
+    "source_ref": "SRC-TT-WMBI",
+    "source_url": "https://ads.tiktok.com/help/",
+    "source_title": "TikTok Advertising Policies: Weight Management and Body Image",
+    "source_date": "2026-09-01",
+    "citation": "TikTok Advertising Policies: Weight Management and Body Image",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Gain 15 lbs of muscle in a month, no gym needed.",
+      "Guaranteed weight loss."
+    ],
+    "compliant_examples": [
+      "Part of a training routine with a balanced diet (adults 18+)."
+    ],
+    "fix_patterns": [
+      "Remove 'easy', 'guaranteed' and 'without exercise' language; add the lifestyle context."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "ad_tiktok"
+    ],
+    "tags": [
+      "TikTok",
+      "weight",
+      "muscle"
+    ],
+    "keywords": [
+      "muscle",
+      "weight",
+      "lbs",
+      "guaranteed",
+      "easy",
+      "no gym",
+      "without exercise"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "TT-BI-01",
+    "scope": "TikTok",
+    "title": "TikTok: no body shaming or 'ideal body' messaging",
+    "category": "platform_body_image",
+    "rule_summary": "Ads and landing pages can't shame bodies, suggest an ideal or 'perfect' look, or claim that changing appearance or weight brings confidence, success, happiness or popularity.",
+    "source_ref": "SRC-TT-WMBI",
+    "source_url": "https://ads.tiktok.com/help/",
+    "source_title": "TikTok Advertising Policies: Weight Management and Body Image",
+    "source_date": "2026-09-01",
+    "citation": "TikTok Advertising Policies: Weight Management and Body Image",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Get the body everyone wants.",
+      "Finally feel confident at the beach."
+    ],
+    "compliant_examples": [
+      "Fits a daily training routine."
+    ],
+    "fix_patterns": [
+      "Remove appearance-to-happiness links and 'ideal body' wording."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "ad_tiktok"
+    ],
+    "tags": [
+      "TikTok",
+      "body image"
+    ],
+    "keywords": [
+      "perfect body",
+      "confident",
+      "dream body",
+      "beach body",
+      "ideal"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "TT-HC-01",
+    "scope": "TikTok",
+    "title": "TikTok: medical claims, prescription comparisons and before/after",
+    "category": "disease_claim",
+    "rule_summary": "Product eligibility and claim eligibility are separate checks. Supplement ads must avoid claims to treat, cure, heal or prevent conditions, any suggestion of equivalence or superiority to prescription medicine, 'miracle' or 'secret' cure positioning, and (in several markets) before-and-after comparisons. The landing page is reviewed too.",
+    "source_ref": "SRC-TT-HC",
+    "source_url": "https://ads.tiktok.com/help/article/tiktok-ads-policy-healthcare-pharmaceuticals",
+    "source_title": "TikTok Advertising Policies: Healthcare and Pharmaceuticals",
+    "source_date": "2026-09-01",
+    "citation": "TikTok Advertising Policies: Healthcare and Pharmaceuticals",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "The secret doctors don't want you to know.",
+      "Works better than prescription pills."
+    ],
+    "compliant_examples": [
+      "Creatine monohydrate, 5 g per serving."
+    ],
+    "fix_patterns": [
+      "Delete the claim; check the landing page says the same."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "ad_tiktok"
+    ],
+    "tags": [
+      "TikTok",
+      "healthcare"
+    ],
+    "keywords": [
+      "miracle",
+      "secret",
+      "prescription",
+      "cure",
+      "before",
+      "after"
+    ],
+    "notes": "The owner's file is a third-party summary; this rule was checked against the official page title and date only."
+  }
+]

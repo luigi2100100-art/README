@@ -1,0 +1,24 @@
+{
+  "$id": "precedent.schema.json",
+  "title": "Precedent record (SPEC_v2 6.2)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "agency", "case_date", "company", "letter_id", "quoted_phrase", "violation_category",
+               "agency_reasoning_summary", "source_url", "source_ref", "related_rules", "relevance"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^P-\\d{3}$" },
+    "agency": { "enum": ["FDA", "FTC"] },
+    "case_date": { "$ref": "common.json#/$defs/date" },
+    "company": { "type": "string" },
+    "letter_id": { "type": "string" },
+    "quoted_phrase": { "type": "string", "minLength": 5, "maxLength": 300 },
+    "violation_category": { "$ref": "common.json#/$defs/category" },
+    "agency_reasoning_summary": { "type": "string", "minLength": 30, "maxLength": 600 },
+    "source_url": { "$ref": "common.json#/$defs/url" },
+    "source_ref": { "type": "string" },
+    "related_rules": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "relevance": { "enum": ["copy", "ingredient", "manufacturing"] },
+    "product_type": { "type": "string" },
+    "channel_found": { "type": "string" }
+  }
+}

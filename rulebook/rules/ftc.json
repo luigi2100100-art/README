@@ -1,0 +1,825 @@
+[
+  {
+    "id": "FTC-SUB-01",
+    "scope": "FTC",
+    "title": "Health claims need competent and reliable scientific evidence",
+    "category": "unsupported_claim",
+    "rule_summary": "Any objective claim about a health benefit or safety needs competent and reliable scientific evidence before the ad runs, which generally means well-designed randomized controlled human trials. This applies in every medium and whatever FDA calls the claim.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.B",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Doubles your strength in 30 days.",
+      "Clears brain fog for good."
+    ],
+    "compliant_examples": [
+      "Creatine supports muscle power in heavy, high-intensity exercise (ISSN position stand, 2017)."
+    ],
+    "fix_patterns": [
+      "Narrow the claim to what the company's evidence shows, or remove it."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "substantiation",
+      "RCT"
+    ],
+    "keywords": [
+      "proven",
+      "guaranteed",
+      "double",
+      "boost",
+      "improve"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-SUB-02",
+    "scope": "FTC",
+    "title": "Claims about the level of proof must be true",
+    "category": "substantiation_level",
+    "rule_summary": "Phrases like 'clinically proven', 'studies show', 'scientists agree', 'doctor recommended' or 'clinically tested ingredient' promise a specific level of proof. The company must have at least that level, and for the product itself, not just one ingredient.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.B.1",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Clinically proven to sharpen memory.",
+      "Scientists now agree: omega-3 protects your brain.",
+      "Doctor recommended."
+    ],
+    "compliant_examples": [
+      "A 2017 ISSN position stand reports that creatine supports phosphocreatine stores."
+    ],
+    "fix_patterns": [
+      "Name the actual source and what it found, or drop the level-of-proof phrase."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "clinically proven",
+      "studies show"
+    ],
+    "keywords": [
+      "clinically",
+      "proven",
+      "studies show",
+      "research shows",
+      "scientists",
+      "doctor recommended",
+      "tested"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-SUB-03",
+    "scope": "FTC",
+    "title": "The cited evidence must match the dose, form, population and outcome",
+    "category": "study_mismatch",
+    "rule_summary": "A good study only supports a claim if it matches the product: same ingredient and form, a comparable dose, the same kind of people (healthy adults versus patients, athletes versus everyone), and the same outcome. Claims must not stretch the size, nature or permanence of the effect.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.B.5",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Studies show creatine builds muscle in everyone (studies were in trained young men).",
+      "Proven to improve memory (study measured one working-memory task)."
+    ],
+    "compliant_examples": [
+      "In adults doing heavy resistance training, creatine supports training volume (Kreider et al., 2017)."
+    ],
+    "fix_patterns": [
+      "Add the population and condition the evidence covers, or remove the claim."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "study",
+      "dose",
+      "population"
+    ],
+    "keywords": [
+      "study",
+      "studies",
+      "research",
+      "trial",
+      "shown"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-NET-01",
+    "scope": "FTC",
+    "title": "Net impression: implied claims count as much as stated ones",
+    "category": "implied_claim",
+    "rule_summary": "The FTC reads the whole ad as a reasonable consumer would: text, product name, images, charts and context. A structure/function statement can imply a disease benefit, such as immune support in a winter cold-season context. Marketers can't say indirectly what they couldn't say directly.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.A.1",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "'Supports nose and throat health all winter' beside pictures of people sneezing.",
+      "90% of cardiologists take it."
+    ],
+    "compliant_examples": [
+      "Provides vitamin C, which contributes to normal immune function.* (no cold imagery)"
+    ],
+    "fix_patterns": [
+      "Remove the element that creates the implied claim (image, name, context), or substantiate the implied claim."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "net impression",
+      "implied claim"
+    ],
+    "keywords": [
+      "winter",
+      "season",
+      "doctors",
+      "cardiologists"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-QUAL-01",
+    "scope": "FTC",
+    "title": "Vague qualifiers don't fix a claim",
+    "category": "repeated_hedged_claim",
+    "rule_summary": "Words like 'may', 'helps', 'promising', 'preliminary' or 'pilot' don't tell consumers that the evidence is weak. Consumers often read them as positives. A hedged claim repeated across a page reads as a promise.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.A.3",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Promising preliminary studies show it may reduce cholesterol.",
+      "May support joint comfort. (repeated five times on one page)"
+    ],
+    "compliant_examples": [
+      "One small 8-week study in 40 adults found a change in X; larger studies have not confirmed it. (only if this is accurate and prominent)"
+    ],
+    "fix_patterns": [
+      "Group the repeats into one decision; keep the claim once, with clear limits, or remove it."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "qualifiers",
+      "hedging"
+    ],
+    "keywords": [
+      "may",
+      "might",
+      "could",
+      "helps",
+      "promising",
+      "preliminary"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-DISC-01",
+    "scope": "FTC",
+    "title": "Disclosures must be clear and conspicuous and can't contradict the claim",
+    "category": "headline_vs_fine_print",
+    "rule_summary": "A qualifying statement must be hard to miss and easy to understand, placed next to the claim, and in the same medium as the claim. Fine print can't take back what a headline promises, and if a disclosure can't make the claim truthful, the claim must change.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.A.3",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Headline: 'Sharpens memory from the first softgel.' Footer: 'We make no health claims.'",
+      "'Clears acne' with 'for entertainment only' underneath."
+    ],
+    "compliant_examples": [
+      "Headline and fine print say the same thing: 'EPA and DHA printed on the front panel.'"
+    ],
+    "fix_patterns": [
+      "Bring the headline down to what the fine print says."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "disclosure",
+      "fine print",
+      "headline"
+    ],
+    "keywords": [
+      "*",
+      "results may vary",
+      "not intended"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-SAFE-01",
+    "scope": "FTC",
+    "title": "Safety claims and material risks",
+    "category": "safety_overclaim",
+    "rule_summary": "Claims like 'safe for everyone', 'no side effects' or 'without the side effects of drugs' need evidence. Even without a safety claim, significant risks and interactions (for example omega-3 with blood thinners) should be disclosed.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.A.2",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Safe for everyone, with no side effects.",
+      "A natural pain remedy without the side effects of over-the-counter drugs."
+    ],
+    "compliant_examples": [
+      "If you take a blood thinner, ask the clinician who manages it before adding omega-3."
+    ],
+    "fix_patterns": [
+      "Delete the absolute safety claim; keep or add the relevant warning."
+    ],
+    "auto_fixable": true,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "safety",
+      "side effects",
+      "interactions"
+    ],
+    "keywords": [
+      "safe",
+      "no side effects",
+      "side effect",
+      "harmless",
+      "gentle",
+      "natural"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-TEST-01",
+    "scope": "FTC",
+    "title": "Testimonials imply typical results",
+    "category": "testimonial_result",
+    "rule_summary": "A customer's story about a key result is read as what buyers will generally get. The company needs evidence for that, or must clearly show the generally expected results. 'Results not typical' or 'individual results may vary' doesn't fix it. A testimonial can't make a claim the company couldn't make directly.",
+    "source_ref": "SRC-CFR-16-255",
+    "source_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255",
+    "source_title": "16 CFR Part 255 Guides Concerning the Use of Endorsements and Testimonials in Advertising",
+    "source_date": "2023-07-26",
+    "citation": "16 CFR 255.2(b); Health Products Compliance Guidance, III.C.1",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "\"I added 40 lbs to my squat in four weeks.\"",
+      "\"Two weeks and my brain fog was gone.\" Results not typical."
+    ],
+    "compliant_examples": [
+      "\"I like that the tub has one ingredient.\""
+    ],
+    "fix_patterns": [
+      "Remove results-based testimonials, or add the generally expected results with evidence."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "testimonials",
+      "typical results"
+    ],
+    "keywords": [
+      "lost",
+      "gained",
+      "added",
+      "in just",
+      "weeks",
+      "results not typical",
+      "results may vary"
+    ]
+  },
+  {
+    "id": "FTC-BA-01",
+    "scope": "FTC",
+    "title": "Before-and-after framing",
+    "category": "before_after",
+    "rule_summary": "Before-and-after pictures or stories imply dramatic results that the company must substantiate as typical. They can also imply disease claims, such as walker 'before' and dancing 'after' implying arthritis relief. The framing counts even when it comes from the order of the text rather than from images.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.A.1 (Example 6) and III.C.1 (Example 41)",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Before: stiff knees every morning. After 30 days: out for a run.",
+      "Week 1 vs week 8 photos."
+    ],
+    "compliant_examples": [
+      "How to take it: 2 softgels daily with a meal."
+    ],
+    "fix_patterns": [
+      "Remove the before/after framing, or substantiate typical results and show them clearly."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "before and after"
+    ],
+    "keywords": [
+      "before",
+      "after",
+      "week 1",
+      "transformation"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-END-01",
+    "scope": "FTC",
+    "title": "Disclose material connections with endorsers",
+    "category": "endorsement_disclosure",
+    "rule_summary": "If an endorser is paid, given free product, is an employee or relative, or has any connection consumers wouldn't expect, the ad must say so clearly and conspicuously, in each post, in words people understand ('#ad', 'Paid partnership', 'my company's'). A platform's built-in tag may not be enough on its own.",
+    "source_ref": "SRC-CFR-16-255",
+    "source_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255",
+    "source_title": "16 CFR Part 255 Guides Concerning the Use of Endorsements and Testimonials in Advertising",
+    "source_date": "2023-07-26",
+    "citation": "16 CFR 255.5; FTC Endorsement Guides FAQ (2023)",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Influencer post praising the product with no mention of free product.",
+      "Employee review with no disclosure."
+    ],
+    "compliant_examples": [
+      "#ad I was sent this tub for free."
+    ],
+    "fix_patterns": [
+      "Add a clear disclosure at the start of the post or caption."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "influencer",
+      "material connection",
+      "#ad"
+    ],
+    "keywords": [
+      "partner",
+      "ambassador",
+      "gifted",
+      "#ad",
+      "sponsored",
+      "influencer"
+    ]
+  },
+  {
+    "id": "FTC-END-02",
+    "scope": "FTC",
+    "title": "Expert endorsements need real expertise and review",
+    "category": "expert_endorsement",
+    "rule_summary": "An expert endorser must have the qualifications the ad implies and must have examined the product in a way experts in that field would accept. Any financial tie to the company must be disclosed.",
+    "source_ref": "SRC-CFR-16-255",
+    "source_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255",
+    "source_title": "16 CFR Part 255 Guides Concerning the Use of Endorsements and Testimonials in Advertising",
+    "source_date": "2023-07-26",
+    "citation": "16 CFR 255.3; Health Products Compliance Guidance, III.C.1",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "'Leading joint clinician recommends' (endorser is a paid officer with no relevant review).",
+      "'Dr. Lee, nutrition expert, swears by it' (no relevant credentials, paid fee not disclosed)."
+    ],
+    "compliant_examples": [
+      "(No expert endorsement, or one with stated credentials, review basis and disclosed payment.)"
+    ],
+    "fix_patterns": [
+      "Remove the endorsement or confirm qualifications, basis and disclosure with the company."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "expert",
+      "doctor"
+    ],
+    "keywords": [
+      "doctor",
+      "dr.",
+      "md",
+      "clinician",
+      "expert",
+      "nutritionist",
+      "recommended by"
+    ]
+  },
+  {
+    "id": "FTC-REV-01",
+    "scope": "FTC",
+    "title": "Fake, bought, insider or suppressed reviews",
+    "category": "fake_reviews",
+    "rule_summary": "Companies may not write, buy or sell fake reviews or testimonials, pay for reviews that express a particular sentiment, post undisclosed reviews by officers or managers, present a site they control as independent, suppress negative reviews, or use fake social-media influence indicators.",
+    "source_ref": "SRC-CFR-16-465",
+    "source_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+    "source_title": "16 CFR Part 465 Rule on the Use of Consumer Reviews and Testimonials",
+    "source_date": "2024-08-22",
+    "citation": "16 CFR 465.2, 465.4-465.8",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "5,000 five-star reviews (written by the company).",
+      "Leave a 5-star review and get 20% off.",
+      "Independent review site (owned by the brand)."
+    ],
+    "compliant_examples": [
+      "Leave an honest review of any rating."
+    ],
+    "fix_patterns": [
+      "Flag for a decision: the tool cannot verify reviews; the company must confirm their origin."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "reviews",
+      "testimonials",
+      "16 CFR 465"
+    ],
+    "keywords": [
+      "review",
+      "five-star",
+      "5-star",
+      "rated",
+      "independent",
+      "verified buyer"
+    ]
+  },
+  {
+    "id": "FTC-TRAD-01",
+    "scope": "FTC",
+    "title": "Traditional-use claims need the same evidence or a clear qualifier",
+    "category": "traditional_use",
+    "rule_summary": "'Used for centuries' or 'an ancient remedy' still implies the product works. Unless there is scientific evidence, the ad must say clearly, next to the claim, that there's no scientific evidence it works. A testimonial or strong claim nearby can overwhelm that qualifier.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.C.2",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "An ancient Ayurvedic remedy for digestion.",
+      "Used for 2,000 years to fight infections."
+    ],
+    "compliant_examples": [
+      "Traditionally used to aid digestion. There is no scientific evidence that it works."
+    ],
+    "fix_patterns": [
+      "Add a prominent 'no scientific evidence' statement, or remove the traditional-use claim."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "traditional use",
+      "Ayurveda",
+      "homeopathy"
+    ],
+    "keywords": [
+      "ancient",
+      "centuries",
+      "traditional",
+      "ayurvedic",
+      "homeopathic",
+      "remedy"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-FDA-01",
+    "scope": "FTC",
+    "title": "Don't imply FDA approval; the disclaimer doesn't cure deception",
+    "category": "fda_approval_claim",
+    "rule_summary": "Supplements are not FDA-approved. Notifying FDA, using the DSHEA disclaimer or making the product in an FDA-registered facility is not approval, and ads must not suggest otherwise. Including the FDA disclaimer does not make a deceptive disease claim acceptable.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.C.3-4",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "FDA approved formula.",
+      "Made in an FDA-approved facility.",
+      "Treats diabetes.* (*These statements have not been evaluated ...)"
+    ],
+    "compliant_examples": [
+      "Manufactured in a facility following cGMP for dietary supplements (21 CFR Part 111)."
+    ],
+    "fix_patterns": [
+      "Delete 'FDA approved'; describe the actual status (for example cGMP) accurately."
+    ],
+    "auto_fixable": true,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "FDA approved",
+      "disclaimer"
+    ],
+    "keywords": [
+      "fda approved",
+      "fda-approved",
+      "fda registered",
+      "fda certified"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-NEG-01",
+    "scope": "FTC",
+    "title": "Subscriptions: clear terms, express consent, simple cancellation",
+    "category": "hidden_subscription_terms",
+    "rule_summary": "For online subscriptions and auto-renewals, the company must clearly disclose all material terms before taking billing details, get express informed consent before charging, and give a simple way to stop recurring charges. Terms hidden in a footer or cancellation by phone or letter only are red flags.",
+    "source_ref": "SRC-USC-15-8403",
+    "source_url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap110-sec8403.htm",
+    "source_title": "15 U.S.C. 8403 Negative option marketing on the Internet (ROSCA)",
+    "source_date": "2010-12-29",
+    "citation": "15 U.S.C. 8403 (ROSCA)",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Subscribe and save 15%. (renewal terms only in the footer)",
+      "Cancel by calling during business hours."
+    ],
+    "compliant_examples": [
+      "Ships every 30 days at $28.80. Skip, pause or cancel from your account page any time before the next shipment."
+    ],
+    "fix_patterns": [
+      "Flag for a decision: move price, frequency and cancellation method next to the offer."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "subscription",
+      "auto-renew",
+      "ROSCA"
+    ],
+    "keywords": [
+      "subscribe",
+      "subscription",
+      "auto",
+      "renew",
+      "recurring",
+      "cancel",
+      "billed"
+    ]
+  },
+  {
+    "id": "FTC-URG-01",
+    "scope": "FTC",
+    "title": "Scarcity and deadlines must be true",
+    "category": "fake_urgency",
+    "rule_summary": "Advertising must be truthful and not misleading. Statements like 'only 9 left' or 'price ends at midnight' are factual claims and must be accurate. Fear or urgency tied to a health outcome raises the risk further.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "FTC Act Section 5 (truthful advertising), as summarised in Health Products Compliance Guidance, II.A",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Only 12 bottles left at this price.",
+      "Offer ends at midnight tonight. (it doesn't)"
+    ],
+    "compliant_examples": [
+      "(No scarcity claim, or one the company confirms is accurate.)"
+    ],
+    "fix_patterns": [
+      "Ask the company to confirm the claim is true; otherwise remove it."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "urgency",
+      "scarcity"
+    ],
+    "keywords": [
+      "only",
+      "left",
+      "ends",
+      "tonight",
+      "midnight",
+      "hurry",
+      "last chance",
+      "limited"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  },
+  {
+    "id": "FTC-USA-01",
+    "scope": "FTC",
+    "title": "'Made in USA' means all or virtually all",
+    "category": "made_in_usa",
+    "rule_summary": "An unqualified 'Made in USA' claim on labels (and, under FTC policy, in advertising) requires final assembly or processing in the US, all significant processing in the US, and all or virtually all ingredients made and sourced in the US. Imported fish oil processed in the US does not qualify without a qualifier.",
+    "source_ref": "SRC-CFR-16-323",
+    "source_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-323",
+    "source_title": "16 CFR Part 323 Made in USA Labeling Rule",
+    "source_date": "2021-07-14",
+    "citation": "16 CFR 323.2",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Made in the USA (anchovy oil sourced from Peru).",
+      "Proudly American made."
+    ],
+    "compliant_examples": [
+      "Bottled in the USA from fish oil sourced from Peru."
+    ],
+    "fix_patterns": [
+      "Qualify the origin claim accurately, or remove it."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "origin",
+      "Made in USA"
+    ],
+    "keywords": [
+      "made in usa",
+      "made in the usa",
+      "american made",
+      "made in america"
+    ]
+  },
+  {
+    "id": "FTC-TPL-01",
+    "scope": "FTC",
+    "title": "Third-party articles and owned 'independent' sites",
+    "category": "third_party_literature",
+    "rule_summary": "Quoting or linking to articles, books or abstracts makes the company responsible for the claims they imply, even when they are 'two clicks' away. A site the company owns or pays for is not independent and must say so.",
+    "source_ref": "SRC-FTC-HPCG",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "source_title": "Health Products Compliance Guidance (December 2022)",
+    "source_date": "2022-12-01",
+    "citation": "Health Products Compliance Guidance, III.C.5",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "As seen in 'The Miracle Cancer Cure'.",
+      "Link to a 'consumer health guide' run by the brand, without saying so."
+    ],
+    "compliant_examples": [
+      "Our product page links to the NIH ODS fact sheet on omega-3s for background, with no claims about our product."
+    ],
+    "fix_patterns": [
+      "Remove the reference, or disclose ownership and make sure it implies no claim the company can't support."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "third-party literature",
+      "links"
+    ],
+    "keywords": [
+      "as seen in",
+      "featured in",
+      "read more",
+      "book",
+      "article"
+    ],
+    "notes": "Source link not checked from this tool; see sources.json."
+  }
+]

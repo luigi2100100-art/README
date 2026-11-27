@@ -1,0 +1,21 @@
+{
+  "$id": "source.schema.json",
+  "title": "Source document register entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "publisher", "title", "url", "date", "retrieved", "obtained_from", "url_verified", "official"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^SRC-[A-Z0-9.-]+$" },
+    "publisher": { "type": "string" },
+    "title": { "type": "string" },
+    "url": { "$ref": "common.json#/$defs/url" },
+    "date": { "$ref": "common.json#/$defs/date" },
+    "date_note": { "type": "string" },
+    "retrieved": { "$ref": "common.json#/$defs/date" },
+    "obtained_from": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "url_verified": { "type": "boolean" },
+    "official": { "type": "boolean" },
+    "local_text": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

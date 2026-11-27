@@ -1,0 +1,19 @@
+{
+  "$id": "pattern.schema.json",
+  "title": "Reads-as-violating pattern (SPEC_v2 6.3)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "description", "related_rules", "examples", "usual_fix", "severity"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^PAT-\\d{2}$" },
+    "name": { "type": "string" },
+    "description": { "type": "string", "minLength": 40 },
+    "related_rules": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "related_precedents": { "type": "array", "items": { "type": "string" } },
+    "examples": { "type": "array", "minItems": 3, "items": {
+      "type": "object", "additionalProperties": false, "required": ["text", "why"],
+      "properties": { "text": { "type": "string" }, "why": { "type": "string" } } } },
+    "usual_fix": { "type": "string" },
+    "severity": { "$ref": "common.json#/$defs/severity" }
+  }
+}

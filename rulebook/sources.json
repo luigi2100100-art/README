@@ -1,0 +1,528 @@
+{
+  "about": "Every document the rulebook cites. url_verified = the link was opened from this tool and matched. local_text = public-domain text kept for quote checks.",
+  "sources": [
+    {
+      "id": "SRC-FDA-WL-709661",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Hydroxie, LLC (MARCS-CMS 709661)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/hydroxie-llc-709661-06252025",
+      "date": "2025-06-25",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1GWY0frZl9KuIkOlDINYqM4NMoNOVuFZh",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-709661.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-712804",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Stellalife, Inc. (MARCS-CMS 712804)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stellalife-inc-712804-09162025",
+      "date": "2025-09-16",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1JSJAvzgMorx-9n8N_uEe0Ks1h41aQ0Yh",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-712804.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-719198",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: 123Herbals (MARCS-CMS 719198)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/123herbals-719198-11132025",
+      "date": "2025-11-13",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1Hk-73HK_0W3FGTsd1fpDwg8TM_pn9FMS",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-719198.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-687832",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Gluten Free Remedies LLC (MARCS-CMS 687832)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/gluten-free-remedies-llc-687832-04152025",
+      "date": "2025-04-15",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1lLBA9wxfrpEISyUM65oBmddixi3k4ZNv",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-687832.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-706900",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Time Challenger Labs International, Inc. (MARCS-CMS 706900)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/time-challenger-labs-international-inc-706900-09182025",
+      "date": "2025-09-18",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1WWgaNfBgGcbvV51H3IZq03sNzd2fMx9F",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-706900.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-693439",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: C & A Naturistics (MARCS-CMS 693439)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/c-naturistics-693439-03042025",
+      "date": "2025-03-04",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1z3wmuel2Ud18yKIdRo5FHESaSuoIe6Ug",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-693439.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-701480",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Naturista Store LLC (MARCS-CMS 701480)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/naturista-store-llc-701480-03262025",
+      "date": "2025-03-26",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1SxtNF8yTGubXy36Gyjee2eJpfH96AMDA",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-701480.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-692527",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Mother Earth Minerals, Inc. (MARCS-CMS 692527)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mother-earth-minerals-inc-692527-03282025",
+      "date": "2025-03-28",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1k-_GRhqqVu_prnpL0ilsh5f89qsuaJXC",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-692527.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-700749",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Supreme Rejuvenation, LLC (MARCS-CMS 700749)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/supreme-rejuvenation-llc-700749-05052025",
+      "date": "2025-05-05",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1vb15pJCtClE10ekrqpThekwqrzY9zSsP",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-700749.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-709333",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Bio Wellness 444 LLC (MARCS-CMS 709333)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/bio-wellness-444-llc-709333-05302025",
+      "date": "2025-05-30",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1kFFdeEGUzSSXZT-SO5ljBsmYH2KrS9Zg",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-709333.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-709332",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Nefeteri Wellness (MARCS-CMS 709332)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/nefeteri-wellness-709332-05302025",
+      "date": "2025-05-30",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1MyhMzmZ2yyV_z_P7JZnJN6jrHkTMeJbb",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-709332.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-709315",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Life Enthusiast Co-op (MARCS-CMS 709315)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/life-enthusiast-co-op-709315-08252025",
+      "date": "2025-08-25",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1Q3hZg5DUQwMsl4D0eNj8oPAxe64pGnkT",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-709315.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-715218",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: PureRawz (MARCS-CMS 715218)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/purerawz-715218-09082025",
+      "date": "2025-09-08",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1WhDulbfB1eDF2li_h26SdYomJGPuYTs0",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-715218.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-716154",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: VarunKart Group LLC dba Organic Wellnesses (MARCS-CMS 716154)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/varunkart-group-llc-dba-organic-wellnesses-716154-11172025",
+      "date": "2025-11-17",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1Ff7EpUUlvPwFVYBapqc-kQMStZY0ZGLQ",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-716154.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-716644",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Swift Digital Group LLC dba Swadesii (MARCS-CMS 716644)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/swift-digital-group-llc-dba-swadesii-716644-11172025",
+      "date": "2025-11-17",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1BQs1qgWsoMEvQJE8hmzHANGCpZYGMjRm",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-716644.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-716286",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Mahita LLC dba PushMyCart (MARCS-CMS 716286)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mahita-llc-dba-pushmycart-716286-11172025",
+      "date": "2025-11-17",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1iu6Z7mSlLFtsuKQdEJ_baxIMbGnWfvpM",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-716286.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-709622",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Shaman Botanicals, LLC (MARCS-CMS 709622)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/shaman-botanicals-llc-709622-06252025",
+      "date": "2025-06-25",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1vwv6NKCvdiJ9ryLr1OkqnhMlTY_NMV27",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-709622.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-709475",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Relax Relief Rejuvenate Trading, LLC dba RRR Trading or EDP Kratom (MARCS-CMS 709475)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/relax-relief-rejuvenate-trading-llc-dba-rrr-trading-or-edp-kratom-709475-06252025",
+      "date": "2025-06-25",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1KK0tMqZSgZQ09biTeAk2ZU50svOX9ddL",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-709475.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-710314",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: My Smoke Wholesale (MARCS-CMS 710314)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/my-smoke-wholesale-710314-06252025",
+      "date": "2025-06-25",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1gOKHe65zqrPslPEm7Y0c505NaB_1L86Q",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-710314.txt"
+    },
+    {
+      "id": "SRC-FDA-WL-710190",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Warning Letter: Thang Botanicals, Inc. d/b/a 7ΩHMZ, 7-OHMZ, or 7OHMZ (MARCS-CMS 710190)",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/thang-botanicals-inc-dba-7ohmz-7-ohmz-or-7ohmz-710190-06252025",
+      "date": "2025-06-25",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1gpcXKb3VGSu6LqDqgJUn63dukHu2D5c9",
+        "fda.gov (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/fda-warning-letters/wl-710190.txt"
+    },
+    {
+      "id": "SRC-CFR-21-101.93",
+      "publisher": "eCFR (Office of the Federal Register)",
+      "title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+      "date": "2016-07-29",
+      "date_note": "Last amendment cited by eCFR: 81 FR 49895, July 29, 2016.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "ecfr.gov API (section 101.93)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/regulations/21-CFR-101.93.txt",
+      "notes": "Text fetched through the eCFR API for this section; the link is the same section's public page."
+    },
+    {
+      "id": "SRC-USC-21-343R6",
+      "publisher": "U.S. Government Publishing Office (govinfo)",
+      "title": "21 U.S.C. 343(r)(6) (FD&C Act 403(r)(6)), 2023 edition",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title21/html/USCODE-2023-title21-chap9-subchapIV-sec343.htm",
+      "date": "1994-10-25",
+      "date_note": "Added by DSHEA (Pub. L. 103-417), enacted October 25, 1994.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "govinfo.gov"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/regulations/21-USC-343-r6.txt"
+    },
+    {
+      "id": "SRC-FDA-SF-GUIDE",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Small Entity Compliance Guide on Structure/Function Claims",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-structurefunction-claims",
+      "date": "2017-11-10",
+      "date_note": "Page 'content current as of' date; the guide was first issued in 2002.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "fda.gov"
+      ],
+      "url_verified": true,
+      "official": true
+    },
+    {
+      "id": "SRC-FDA-SUBST-GUIDE",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Guidance for Industry: Substantiation for Dietary Supplement Claims Made Under Section 403(r)(6)",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-substantiation-dietary-supplement-claims-made-under-section-403r-6-federal-food",
+      "date": "2018-09-20",
+      "date_note": "Page 'content current as of' date; guidance issued December 2008.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "fda.gov"
+      ],
+      "url_verified": true,
+      "official": true
+    },
+    {
+      "id": "SRC-FTC-HPCG",
+      "publisher": "Federal Trade Commission",
+      "title": "Health Products Compliance Guidance (December 2022)",
+      "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "date": "2022-12-01",
+      "date_note": "Dated 'December 2022' in the document; day not shown.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1UdbnvEc7_UJH1wCQYFGJqhDfiboPYh9E"
+      ],
+      "url_verified": false,
+      "official": true,
+      "notes": "ftc.gov refuses automated requests from this tool, so the link was not checked from here. Content taken from the owner's PDF copy."
+    },
+    {
+      "id": "SRC-FTC-ENDORSE-FAQ",
+      "publisher": "Federal Trade Commission",
+      "title": "FTC's Endorsement Guides: What People Are Asking",
+      "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+      "date": "2023-06-01",
+      "date_note": "Dated 'June 2023' in the document; day not shown.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1VTblhhCkkR7YKud-Caxlpn8s74mIDbD0"
+      ],
+      "url_verified": false,
+      "official": true,
+      "notes": "ftc.gov refuses automated requests from this tool, so the link was not checked from here. Content taken from the owner's PDF copy."
+    },
+    {
+      "id": "SRC-CFR-16-255",
+      "publisher": "eCFR (Office of the Federal Register)",
+      "title": "16 CFR Part 255 Guides Concerning the Use of Endorsements and Testimonials in Advertising",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255",
+      "date": "2023-07-26",
+      "date_note": "Revision cited by eCFR: 88 FR 48102, July 26, 2023.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "ecfr.gov API (part 255)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/regulations/16-CFR-255.txt"
+    },
+    {
+      "id": "SRC-CFR-16-465",
+      "publisher": "eCFR (Office of the Federal Register)",
+      "title": "16 CFR Part 465 Rule on the Use of Consumer Reviews and Testimonials",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "date": "2024-08-22",
+      "date_note": "Source cited by eCFR: 89 FR 68077. Publication date (Aug 22, 2024) and effective date (Oct 21, 2024) not re-checked here.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "ecfr.gov API (part 465)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/regulations/16-CFR-465.txt"
+    },
+    {
+      "id": "SRC-CFR-16-323",
+      "publisher": "eCFR (Office of the Federal Register)",
+      "title": "16 CFR Part 323 Made in USA Labeling Rule",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-323",
+      "date": "2021-07-14",
+      "date_note": "Source cited by eCFR: 86 FR 37032, July 14, 2021.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "ecfr.gov API (part 323)"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/regulations/16-CFR-323.txt"
+    },
+    {
+      "id": "SRC-USC-15-8403",
+      "publisher": "U.S. Government Publishing Office (govinfo)",
+      "title": "15 U.S.C. 8403 Negative option marketing on the Internet (ROSCA)",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap110-sec8403.htm",
+      "date": "2010-12-29",
+      "date_note": "Pub. L. 111-345, Dec. 29, 2010.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "govinfo.gov"
+      ],
+      "url_verified": true,
+      "official": true,
+      "local_text": "rulebook/sources/regulations/15-USC-8403.txt"
+    },
+    {
+      "id": "SRC-META-HW",
+      "publisher": "Meta",
+      "title": "Advertising Standards: Health and Wellness (Transparency Center)",
+      "url": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness/",
+      "date": "2026-07-23",
+      "date_note": "Latest change-log entry in the owner's copy.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1Dynv17o9md3ui_mRRTj6oBNkHxFhdiww",
+        "transparency.meta.com (page title matched; text loads by script, so content is from the owner's copy)"
+      ],
+      "url_verified": true,
+      "official": true
+    },
+    {
+      "id": "SRC-TT-HC",
+      "publisher": "TikTok",
+      "title": "TikTok Advertising Policies: Healthcare and Pharmaceuticals",
+      "url": "https://ads.tiktok.com/help/article/tiktok-ads-policy-healthcare-pharmaceuticals",
+      "date": "2026-09-01",
+      "date_note": "'Last updated: September 2026' on the page; day not shown.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "ads.tiktok.com (page title and date matched)",
+        "owner Google Drive file 1gGCmMv-j3ygGekqAuONbCVKXc2j8hb7C (a third-party summary, not official)"
+      ],
+      "url_verified": true,
+      "official": true
+    },
+    {
+      "id": "SRC-TT-WMBI",
+      "publisher": "TikTok",
+      "title": "TikTok Advertising Policies: Weight Management and Body Image",
+      "url": "https://ads.tiktok.com/help/",
+      "date": "2026-09-01",
+      "date_note": "'Last updated: September 2026' in the owner's copy.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1tafk8CbnVj6YY5JJMPnbSpTNQodrXprc"
+      ],
+      "url_verified": false,
+      "official": true,
+      "notes": "The exact article link could not be confirmed; the link points to the TikTok Ads Help Center. Owner: please add the article link."
+    },
+    {
+      "id": "SRC-GOOG-HC",
+      "publisher": "Google",
+      "title": "Google Ads policy: Healthcare and medicines",
+      "url": "https://support.google.com/adspolicy/answer/176031",
+      "date": "2026-11-27",
+      "date_note": "No date shown on the page; date = retrieval date.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "owner Google Drive file 1Yf99pkXV1kAKv2n_WocPzVfUE28rsxz3",
+        "support.google.com (page title matched)"
+      ],
+      "url_verified": true,
+      "official": true
+    },
+    {
+      "id": "SRC-GOOG-US",
+      "publisher": "Google",
+      "title": "Google Ads policy: Unapproved substances",
+      "url": "https://support.google.com/adspolicy/answer/15595718",
+      "date": "2026-11-27",
+      "date_note": "No date shown on the page; date = retrieval date.",
+      "retrieved": "2026-11-27",
+      "obtained_from": [
+        "support.google.com"
+      ],
+      "url_verified": true,
+      "official": true
+    }
+  ]
+}

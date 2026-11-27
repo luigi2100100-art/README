@@ -1,0 +1,20 @@
+{
+  "$id": "common.json",
+  "$defs": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "url": { "type": "string", "pattern": "^https://[^\\s]+$" },
+    "scope": { "enum": ["FDA", "FTC", "Meta", "TikTok", "Google", "General"] },
+    "severity": { "enum": ["high", "medium", "low"] },
+    "channel": { "enum": ["landing_page", "email", "blog", "ad_meta", "ad_tiktok", "ad_google"] },
+    "category": { "enum": [
+      "disease_claim", "cure_treat_prevent", "drug_comparison", "implied_disease_name", "structure_function",
+      "missing_disclaimer", "disclaimer_placement", "disclaimer_no_cure", "unsupported_claim", "substantiation_level",
+      "study_mismatch", "implied_claim", "repeated_hedged_claim", "headline_vs_fine_print", "safety_overclaim",
+      "testimonial_result", "before_after", "endorsement_disclosure", "expert_endorsement", "fake_reviews",
+      "traditional_use", "fda_approval_claim", "hidden_subscription_terms", "fake_urgency", "made_in_usa",
+      "third_party_literature", "ingredient_status", "platform_age_targeting", "platform_body_image",
+      "platform_weight_claims", "platform_incurable_disease", "platform_clickbait", "platform_unapproved_substance",
+      "platform_restricted_drug_terms", "context_mismatch_dose", "context_mismatch_age", "prompt_injection"
+    ] }
+  }
+}

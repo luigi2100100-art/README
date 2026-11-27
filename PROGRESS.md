@@ -13,16 +13,25 @@ Build order: SPEC_v2.md section 13.
   - Excel: copy columns are guessed from the headers. If unsure, the tool asks (a warning, plus an option to pass the answer).
   - Dependencies added (approved): fflate, parse5, entities, mdast-util-from-markdown, mdast-util-gfm, micromark-extension-gfm.
 
+- **Step 4: Rulebook and precedent formats** (2026-11-27). See `rulebook/README.md`.
+  - Formats (JSON schemas) for rules, precedents, patterns and sources, validated on every load.
+  - 37 seed rules (FDA 11, FTC 18, Meta 3, TikTok 3, Google 2), 30 precedents from the owner's 20 FDA warning letters, 11 "reads as violating" patterns, 35 registered sources.
+  - Every precedent quote is checked word for word against the official letter text; the FDA disclaimer is checked against 21 CFR 101.93(c).
+  - Retrieval by channel, category and keywords; staleness warning after 90 days; citation-exists check for the Stage 3 gate.
+  - Environment: a new personal environment, "README (compliance sources)", allows the official FDA, FTC, eCFR, govinfo, Meta, TikTok and Google sites (approved by the owner).
+  - Dependency added (approved): ajv.
+
 ## Next
-- **Step 4: Rulebook and precedent formats**, with 30 seed rules and 20 precedents, each with a source URL and date.
+- **Step 5: Detection passes** (Stage 3, passes 1, 2 and 5) as a command-line tool, using Claude. Needs an Anthropic API key, then measuring on the test set.
 
 ## Waiting on the owner
-- Warning letters, policy PDFs and spreadsheets for step 4 (otherwise I collect public sources myself).
+- An Anthropic API key for step 5 (entered through the secure form, never in chat).
+- The official link for TikTok's "Weight Management and Body Image" policy.
 - Confirm `risk_appetite` for each product (assumed "standard").
 - Decision: keep the web app at step 11, or build a bare test page earlier.
 
 ## Last test results (2026-11-27)
-- `npm run check`: test-set integrity passed; **31 of 31 tests passed**.
+- `npm run check`: test-set integrity passed, rulebook integrity passed; **39 of 39 tests passed**.
 - All 46 test-set files pass the Stage 1 gate. The writers produced 43 edited files, all checked; every seeded quote in all 30 seeded documents was removed as a tracked change.
 - Section 10.2, the parts measurable without AI:
 

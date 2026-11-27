@@ -1,0 +1,530 @@
+[
+  {
+    "id": "P-001",
+    "agency": "FDA",
+    "case_date": "2025-06-25",
+    "company": "Hydroxie, LLC",
+    "letter_id": "709661",
+    "quoted_phrase": "“These have helped my anxiety so much”",
+    "violation_category": "testimonial_result",
+    "agency_reasoning_summary": "Customer reviews on the product pages describing anxiety, pain, fibromyalgia and MS were treated as evidence that the products were intended as drugs.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/hydroxie-llc-709661-06252025",
+    "source_ref": "SRC-FDA-WL-709661",
+    "related_rules": [
+      "FDA-DIS-04"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page reviews"
+  },
+  {
+    "id": "P-002",
+    "agency": "FDA",
+    "case_date": "2025-06-25",
+    "company": "Hydroxie, LLC",
+    "letter_id": "709661",
+    "quoted_phrase": "they’re a simple way to empower your calm, focus, and clarity",
+    "violation_category": "unsupported_claim",
+    "agency_reasoning_summary": "Instagram posts promising calm, focus and clarity were cited alongside blog posts as establishing drug use for an unapproved 7-OH product.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/hydroxie-llc-709661-06252025",
+    "source_ref": "SRC-FDA-WL-709661",
+    "related_rules": [
+      "FDA-INT-01",
+      "FTC-SUB-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "Instagram"
+  },
+  {
+    "id": "P-003",
+    "agency": "FDA",
+    "case_date": "2025-09-16",
+    "company": "Stellalife, Inc.",
+    "letter_id": "712804",
+    "quoted_phrase": "Accelerates healing naturally after dental surgeries",
+    "violation_category": "cure_treat_prevent",
+    "agency_reasoning_summary": "Claims about healing after surgery and treating mucositis made the oral-care products unapproved drugs; FDA stressed the risk to vulnerable users including children.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stellalife-inc-712804-09162025",
+    "source_ref": "SRC-FDA-WL-712804",
+    "related_rules": [
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-004",
+    "agency": "FDA",
+    "case_date": "2025-09-16",
+    "company": "Stellalife, Inc.",
+    "letter_id": "712804",
+    "quoted_phrase": "StellaLife is a safe and natural way to speed up recovery with less pain after dental surgery.",
+    "violation_category": "safety_overclaim",
+    "agency_reasoning_summary": "A Facebook video called the product safe and natural while promising faster recovery; FDA noted several lots had been recalled for microbial contamination.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stellalife-inc-712804-09162025",
+    "source_ref": "SRC-FDA-WL-712804",
+    "related_rules": [
+      "FTC-SAFE-01",
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "Facebook video"
+  },
+  {
+    "id": "P-005",
+    "agency": "FDA",
+    "case_date": "2025-11-13",
+    "company": "123Herbals",
+    "letter_id": "719198",
+    "quoted_phrase": "TDCARE helps to lower blood glucose and cholesterol. Prevents diabetic complications by lowering blood glucose.",
+    "violation_category": "disease_claim",
+    "agency_reasoning_summary": "Claims to lower blood glucose and prevent diabetic complications and cardiovascular disease were disease claims, making the product an unapproved drug.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/123herbals-719198-11132025",
+    "source_ref": "SRC-FDA-WL-719198",
+    "related_rules": [
+      "FDA-DIS-01",
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-006",
+    "agency": "FDA",
+    "case_date": "2025-11-13",
+    "company": "123Herbals",
+    "letter_id": "719198",
+    "quoted_phrase": "SILINTAN 100% natural herbal to relief gout, joint, arthritis body aches",
+    "violation_category": "disease_claim",
+    "agency_reasoning_summary": "A 'natural herbal' sold for gout and arthritis was an unapproved drug; lab tests also found hidden meloxicam, so the label was misleading for failing to reveal it.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/123herbals-719198-11132025",
+    "source_ref": "SRC-FDA-WL-719198",
+    "related_rules": [
+      "FDA-DIS-01",
+      "FDA-DIS-03"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page and URL"
+  },
+  {
+    "id": "P-007",
+    "agency": "FDA",
+    "case_date": "2025-04-15",
+    "company": "Gluten Free Remedies LLC",
+    "letter_id": "687832",
+    "quoted_phrase": "Sulbutiamine Plus Brain Support",
+    "violation_category": "ingredient_status",
+    "agency_reasoning_summary": "Declaring sulbutiamine as a dietary ingredient was false or misleading labeling because it is not a vitamin, mineral, botanical, amino acid or other dietary ingredient.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/gluten-free-remedies-llc-687832-04152025",
+    "source_ref": "SRC-FDA-WL-687832",
+    "related_rules": [
+      "FDA-ING-01"
+    ],
+    "relevance": "ingredient",
+    "channel_found": "label"
+  },
+  {
+    "id": "P-008",
+    "agency": "FDA",
+    "case_date": "2025-09-18",
+    "company": "Time Challenger Labs International, Inc.",
+    "letter_id": "706900",
+    "quoted_phrase": "Chaga is commonly used for the moderation of the signs of malignant and abnormal cell growth.",
+    "violation_category": "cure_treat_prevent",
+    "agency_reasoning_summary": "'Commonly used for' framing did not prevent cancer, Alzheimer's, heart failure and UTI statements from being treated as disease claims; the firm also lacked basic manufacturing controls.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/time-challenger-labs-international-inc-706900-09182025",
+    "source_ref": "SRC-FDA-WL-706900",
+    "related_rules": [
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-009",
+    "agency": "FDA",
+    "case_date": "2025-09-18",
+    "company": "Time Challenger Labs International, Inc.",
+    "letter_id": "706900",
+    "quoted_phrase": "[H]elp to support the health of the Thyroid whether you have issues with Hyper or Hypo Thyroid issues.",
+    "violation_category": "disease_claim",
+    "agency_reasoning_summary": "'Support' wording tied to hyper- and hypothyroidism was cited as a disease claim.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/time-challenger-labs-international-inc-706900-09182025",
+    "source_ref": "SRC-FDA-WL-706900",
+    "related_rules": [
+      "FDA-DIS-01",
+      "FTC-NET-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-010",
+    "agency": "FDA",
+    "case_date": "2025-03-04",
+    "company": "C & A Naturistics",
+    "letter_id": "693439",
+    "quoted_phrase": "RenaLimp Dissolves Kidney Stones",
+    "violation_category": "cure_treat_prevent",
+    "agency_reasoning_summary": "Claims to dissolve kidney stones, fight arthritis and treat eye infections made the products unapproved drugs; diseases needing a doctor can't have adequate directions for self-use.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/c-naturistics-693439-03042025",
+    "source_ref": "SRC-FDA-WL-693439",
+    "related_rules": [
+      "FDA-DIS-06",
+      "FDA-DIS-03"
+    ],
+    "relevance": "copy",
+    "channel_found": "Spanish-language product pages"
+  },
+  {
+    "id": "P-011",
+    "agency": "FDA",
+    "case_date": "2025-03-04",
+    "company": "C & A Naturistics",
+    "letter_id": "693439",
+    "quoted_phrase": "It decreases the accumulation of uric acid and reduces the risk of developing kidney stones.",
+    "violation_category": "cure_treat_prevent",
+    "agency_reasoning_summary": "Risk-reduction wording about kidney stones was treated as a disease-prevention claim.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/c-naturistics-693439-03042025",
+    "source_ref": "SRC-FDA-WL-693439",
+    "related_rules": [
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-012",
+    "agency": "FDA",
+    "case_date": "2025-03-26",
+    "company": "Naturista Store LLC",
+    "letter_id": "701480",
+    "quoted_phrase": "Advance King is a totally natural supplement for everyone, from competitive athletes to retired people enjoying their golden years.",
+    "violation_category": "safety_overclaim",
+    "agency_reasoning_summary": "A 'totally natural supplement for everyone' promising to reduce joint pain and cartilage damage was an unapproved arthritis drug and contained hidden dexamethasone, diclofenac and methocarbamol.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/naturista-store-llc-701480-03262025",
+    "source_ref": "SRC-FDA-WL-701480",
+    "related_rules": [
+      "FTC-SAFE-01",
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "promotional labeling"
+  },
+  {
+    "id": "P-013",
+    "agency": "FDA",
+    "case_date": "2025-03-28",
+    "company": "Mother Earth Minerals, Inc.",
+    "letter_id": "692527",
+    "quoted_phrase": "Type II Diabetes (non insulin-dependent) typically responds very favorably to this mineral protocol within 3-6 months.",
+    "violation_category": "disease_claim",
+    "agency_reasoning_summary": "Website pages organised by disease ('Recommended Package: Cancer', diabetes, multiple sclerosis) made the mineral products unapproved drugs.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mother-earth-minerals-inc-692527-03282025",
+    "source_ref": "SRC-FDA-WL-692527",
+    "related_rules": [
+      "FDA-DIS-01",
+      "FDA-INT-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "website navigation"
+  },
+  {
+    "id": "P-014",
+    "agency": "FDA",
+    "case_date": "2025-03-28",
+    "company": "Mother Earth Minerals, Inc.",
+    "letter_id": "692527",
+    "quoted_phrase": "Unlike modern antibiotic prescriptions Silver doesn't create resistance or immunity in the organisms that are killed by it.",
+    "violation_category": "drug_comparison",
+    "agency_reasoning_summary": "Comparing the product favourably with prescription antibiotics was cited as a drug claim.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mother-earth-minerals-inc-692527-03282025",
+    "source_ref": "SRC-FDA-WL-692527",
+    "related_rules": [
+      "FDA-DIS-05"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-015",
+    "agency": "FDA",
+    "case_date": "2025-03-28",
+    "company": "Mother Earth Minerals, Inc.",
+    "letter_id": "692527",
+    "quoted_phrase": "Vital for prevention of migraine headaches, osteoporosis, and constipation.",
+    "violation_category": "cure_treat_prevent",
+    "agency_reasoning_summary": "A prevention claim on the product label itself was cited as a disease claim.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mother-earth-minerals-inc-692527-03282025",
+    "source_ref": "SRC-FDA-WL-692527",
+    "related_rules": [
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "label"
+  },
+  {
+    "id": "P-016",
+    "agency": "FDA",
+    "case_date": "2025-05-05",
+    "company": "Supreme Rejuvenation, LLC",
+    "letter_id": "700749",
+    "quoted_phrase": "Say Goodbye to Fibromyalgia with Exosome Therapy!",
+    "violation_category": "disease_claim",
+    "agency_reasoning_summary": "Social posts promising relief from fibromyalgia and insulin dependence made the products unapproved drugs and biologics; a 'research and investigational purposes' statement did not change that.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/supreme-rejuvenation-llc-700749-05052025",
+    "source_ref": "SRC-FDA-WL-700749",
+    "related_rules": [
+      "FDA-DIS-01",
+      "META-HW-02"
+    ],
+    "relevance": "copy",
+    "channel_found": "Instagram"
+  },
+  {
+    "id": "P-017",
+    "agency": "FDA",
+    "case_date": "2025-05-30",
+    "company": "Bio Wellness 444 LLC",
+    "letter_id": "709333",
+    "quoted_phrase": "so if you have any issues with bacterial vaginosis or yeast infections use my douche you’ll see immediate results",
+    "violation_category": "cure_treat_prevent",
+    "agency_reasoning_summary": "Statements in Instagram videos, transcribed by FDA, were labeling evidence that the colloidal silver products were intended to treat infections.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/bio-wellness-444-llc-709333-05302025",
+    "source_ref": "SRC-FDA-WL-709333",
+    "related_rules": [
+      "FDA-INT-01",
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "Instagram video"
+  },
+  {
+    "id": "P-018",
+    "agency": "FDA",
+    "case_date": "2025-05-30",
+    "company": "Nefeteri Wellness",
+    "letter_id": "709332",
+    "quoted_phrase": "Colloidal silver is a natural antibiotic that treats yeast infections, bacterial vaginosis, and vaginal itching.",
+    "violation_category": "drug_comparison",
+    "agency_reasoning_summary": "Calling an ingredient a 'natural antibiotic' that treats infections was a drug claim; blog-style education pages on the store were part of the labeling.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/nefeteri-wellness-709332-05302025",
+    "source_ref": "SRC-FDA-WL-709332",
+    "related_rules": [
+      "FDA-DIS-05",
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-019",
+    "agency": "FDA",
+    "case_date": "2025-08-25",
+    "company": "Life Enthusiast Co-op",
+    "letter_id": "709315",
+    "quoted_phrase": "STOPS RED EYES[,] ELIMINATES DRY EYES[,] RESTORES VISION",
+    "violation_category": "cure_treat_prevent",
+    "agency_reasoning_summary": "Eye-drop claims to eliminate dry eye and restore vision made the products unapproved drugs; a topical product can't be a dietary supplement because supplements must be ingested.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/life-enthusiast-co-op-709315-08252025",
+    "source_ref": "SRC-FDA-WL-709315",
+    "related_rules": [
+      "FDA-DIS-06"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-020",
+    "agency": "FDA",
+    "case_date": "2025-09-08",
+    "company": "PureRawz",
+    "letter_id": "715218",
+    "quoted_phrase": "I suffer from depression and this has helped me so much to feel more positive and optimistic.",
+    "violation_category": "testimonial_result",
+    "agency_reasoning_summary": "Reviews about depression and anxiety on the seller's pages counted as evidence of drug use, despite a 'for laboratory and research use only' label.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/purerawz-715218-09082025",
+    "source_ref": "SRC-FDA-WL-715218",
+    "related_rules": [
+      "FDA-DIS-04",
+      "FTC-TEST-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page reviews"
+  },
+  {
+    "id": "P-021",
+    "agency": "FDA",
+    "case_date": "2025-09-08",
+    "company": "PureRawz",
+    "letter_id": "715218",
+    "quoted_phrase": "As an antidepressant tianeptine is similar to amitriptyline, imipramine, and fluoxetine",
+    "violation_category": "drug_comparison",
+    "agency_reasoning_summary": "Comparing the product with prescription antidepressants, with 'fewer adverse effects', was cited as a drug claim.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/purerawz-715218-09082025",
+    "source_ref": "SRC-FDA-WL-715218",
+    "related_rules": [
+      "FDA-DIS-05",
+      "GOOG-US-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "product page"
+  },
+  {
+    "id": "P-022",
+    "agency": "FDA",
+    "case_date": "2025-11-17",
+    "company": "VarunKart Group LLC dba Organic Wellnesses",
+    "letter_id": "716154",
+    "quoted_phrase": "It cures eczema, controls diabetes and cancer.",
+    "violation_category": "cure_treat_prevent",
+    "agency_reasoning_summary": "Claims about serious diseases may lead people to skip or delay effective medical treatment; a retailer was responsible for third-party brands' claims on its own pages.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/varunkart-group-llc-dba-organic-wellnesses-716154-11172025",
+    "source_ref": "SRC-FDA-WL-716154",
+    "related_rules": [
+      "FDA-DIS-06",
+      "META-HW-02"
+    ],
+    "relevance": "copy",
+    "channel_found": "reseller product page"
+  },
+  {
+    "id": "P-023",
+    "agency": "FDA",
+    "case_date": "2025-11-17",
+    "company": "VarunKart Group LLC dba Organic Wellnesses",
+    "letter_id": "716154",
+    "quoted_phrase": "Studies have proved that Muniojus reduces viral load.",
+    "violation_category": "substantiation_level",
+    "agency_reasoning_summary": "A 'studies have proved' claim about viral load in HIV was cited among the disease claims.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/varunkart-group-llc-dba-organic-wellnesses-716154-11172025",
+    "source_ref": "SRC-FDA-WL-716154",
+    "related_rules": [
+      "FTC-SUB-02",
+      "FDA-DIS-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "reseller product page"
+  },
+  {
+    "id": "P-024",
+    "agency": "FDA",
+    "case_date": "2025-11-17",
+    "company": "Swift Digital Group LLC dba Swadesii",
+    "letter_id": "716644",
+    "quoted_phrase": "It may be helpful against a range of pancreatic disorders, including pancreas malfunction, pancreatitis, cystic fibrosis, and pancreatic cancer.",
+    "violation_category": "repeated_hedged_claim",
+    "agency_reasoning_summary": "Hedged 'may be helpful' wording still counted as a disease claim; product names such as 'Thyroid Tablet' and packaging reading 'Anti Stroke' were cited too.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/swift-digital-group-llc-dba-swadesii-716644-11172025",
+    "source_ref": "SRC-FDA-WL-716644",
+    "related_rules": [
+      "FDA-DIS-06",
+      "FTC-QUAL-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "reseller product page"
+  },
+  {
+    "id": "P-025",
+    "agency": "FDA",
+    "case_date": "2025-11-17",
+    "company": "Mahita LLC dba PushMyCart",
+    "letter_id": "716286",
+    "quoted_phrase": "#hepatitisc #hepatitisccure #hepatitiscure",
+    "violation_category": "implied_disease_name",
+    "agency_reasoning_summary": "Facebook posts and hashtags were cited as labeling; disease hashtags linked to a product page made disease claims.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mahita-llc-dba-pushmycart-716286-11172025",
+    "source_ref": "SRC-FDA-WL-716286",
+    "related_rules": [
+      "FDA-DIS-03",
+      "FDA-INT-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "Facebook hashtags"
+  },
+  {
+    "id": "P-026",
+    "agency": "FDA",
+    "case_date": "2025-11-17",
+    "company": "Mahita LLC dba PushMyCart",
+    "letter_id": "716286",
+    "quoted_phrase": "SBL Dibonil Drop checks the commonly associated problems of diabetes and has no side effects.",
+    "violation_category": "safety_overclaim",
+    "agency_reasoning_summary": "A diabetes claim paired with 'has no side effects' was cited; serious-disease claims may cause people to forgo proven treatment.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mahita-llc-dba-pushmycart-716286-11172025",
+    "source_ref": "SRC-FDA-WL-716286",
+    "related_rules": [
+      "FTC-SAFE-01",
+      "FDA-DIS-01"
+    ],
+    "relevance": "copy",
+    "channel_found": "reseller product page"
+  },
+  {
+    "id": "P-027",
+    "agency": "FDA",
+    "case_date": "2025-06-25",
+    "company": "Shaman Botanicals, LLC",
+    "letter_id": "709622",
+    "quoted_phrase": "7-OH Chewable Tablets",
+    "violation_category": "ingredient_status",
+    "agency_reasoning_summary": "7-OH is a new dietary ingredient without adequate safety information, so supplements containing it are adulterated.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/shaman-botanicals-llc-709622-06252025",
+    "source_ref": "SRC-FDA-WL-709622",
+    "related_rules": [
+      "FDA-ING-01"
+    ],
+    "relevance": "ingredient",
+    "channel_found": "label"
+  },
+  {
+    "id": "P-028",
+    "agency": "FDA",
+    "case_date": "2025-06-25",
+    "company": "Relax Relief Rejuvenate Trading, LLC dba RRR Trading or EDP Kratom",
+    "letter_id": "709475",
+    "quoted_phrase": "EDP 7OH Mitragyna Speciosa Extract 50 mg shot",
+    "violation_category": "ingredient_status",
+    "agency_reasoning_summary": "Same new-dietary-ingredient reasoning: no reasonable assurance that 7-OH is safe.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/relax-relief-rejuvenate-trading-llc-dba-rrr-trading-or-edp-kratom-709475-06252025",
+    "source_ref": "SRC-FDA-WL-709475",
+    "related_rules": [
+      "FDA-ING-01"
+    ],
+    "relevance": "ingredient",
+    "channel_found": "label"
+  },
+  {
+    "id": "P-029",
+    "agency": "FDA",
+    "case_date": "2025-06-25",
+    "company": "My Smoke Wholesale",
+    "letter_id": "710314",
+    "quoted_phrase": "777 Jackpot Alkaloids",
+    "violation_category": "ingredient_status",
+    "agency_reasoning_summary": "Same new-dietary-ingredient reasoning applied to tablets declaring 7-OH.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/my-smoke-wholesale-710314-06252025",
+    "source_ref": "SRC-FDA-WL-710314",
+    "related_rules": [
+      "FDA-ING-01"
+    ],
+    "relevance": "ingredient",
+    "channel_found": "label"
+  },
+  {
+    "id": "P-030",
+    "agency": "FDA",
+    "case_date": "2025-06-25",
+    "company": "Thang Botanicals, Inc. d/b/a 7ΩHMZ, 7-OHMZ, or 7OHMZ",
+    "letter_id": "710190",
+    "quoted_phrase": "Keep Out of Reach of Children",
+    "violation_category": "ingredient_status",
+    "agency_reasoning_summary": "For gummies containing 7-OH, FDA said a 'Keep Out of Reach of Children' statement may not be enough when the form and packaging appeal to children.",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/thang-botanicals-inc-dba-7ohmz-7-ohmz-or-7ohmz-710190-06252025",
+    "source_ref": "SRC-FDA-WL-710190",
+    "related_rules": [
+      "FDA-ING-01"
+    ],
+    "relevance": "ingredient",
+    "channel_found": "label"
+  }
+]

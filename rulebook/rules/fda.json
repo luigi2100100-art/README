@@ -1,0 +1,509 @@
+[
+  {
+    "id": "FDA-SF-01",
+    "scope": "FDA",
+    "title": "Structure/function statements: allowed only with conditions",
+    "category": "structure_function",
+    "rule_summary": "A supplement may describe how a nutrient or ingredient affects the normal structure or function of the body, or general well-being, only if the company has substantiation that the statement is true and not misleading, the statement carries the FDA disclaimer, and FDA is notified within 30 days of first marketing. The statement may not claim to diagnose, mitigate, treat, cure or prevent a disease.",
+    "source_ref": "SRC-USC-21-343R6",
+    "source_url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title21/html/USCODE-2023-title21-chap9-subchapIV-sec343.htm",
+    "source_title": "21 U.S.C. 343(r)(6) (FD&C Act 403(r)(6)), 2023 edition",
+    "source_date": "1994-10-25",
+    "citation": "21 U.S.C. 343(r)(6); 21 CFR 101.93(a)",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Supports healthy joints (no substantiation on file, no FDA notification).",
+      "Promotes restful sleep* (asterisk links to nothing)."
+    ],
+    "compliant_examples": [
+      "Calcium helps build and maintain strong bones.* (with the FDA statement and a 30-day notification on file)"
+    ],
+    "fix_patterns": [
+      "Keep the claim to normal structure or function, add the disclaimer, and confirm substantiation and FDA notification with the company."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "DSHEA",
+      "structure/function",
+      "notification"
+    ],
+    "keywords": [
+      "supports",
+      "promotes",
+      "maintains",
+      "helps",
+      "healthy"
+    ]
+  },
+  {
+    "id": "FDA-DIS-01",
+    "scope": "FDA",
+    "title": "Express disease claims are drug claims",
+    "category": "disease_claim",
+    "rule_summary": "A disease is damage to an organ, part, structure or system of the body so that it doesn't work properly, or a state of health leading to that (for example hypertension). Saying a supplement affects a specific disease or class of diseases makes it an unapproved drug in FDA's eyes. Classic nutrient-deficiency diseases (scurvy, pellagra) are the exception.",
+    "source_ref": "SRC-CFR-21-101.93",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+    "source_title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+    "source_date": "2016-07-29",
+    "citation": "21 CFR 101.93(g)(1), (g)(2)(i)",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Lowers your risk of heart disease.",
+      "Helps people with type 2 diabetes manage blood sugar.",
+      "Eases symptoms of depression."
+    ],
+    "compliant_examples": [
+      "Supports healthy circulation as part of a balanced diet.*",
+      "Helps maintain blood sugar levels already within the normal range.*"
+    ],
+    "fix_patterns": [
+      "Delete the disease reference.",
+      "Replace with a structure/function statement the company can substantiate, plus the FDA statement."
+    ],
+    "auto_fixable": true,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "disease",
+      "drug claim"
+    ],
+    "keywords": [
+      "disease",
+      "diabetes",
+      "cancer",
+      "arthritis",
+      "depression",
+      "hypertension",
+      "heart disease",
+      "alzheimer",
+      "infection"
+    ]
+  },
+  {
+    "id": "FDA-DIS-02",
+    "scope": "FDA",
+    "title": "Implied disease claims through signs, symptoms or abnormal conditions",
+    "category": "disease_claim",
+    "rule_summary": "A claim is a disease claim if it describes an effect on the characteristic signs or symptoms of a disease, in medical or everyday words, even without naming the disease. The same applies to abnormal conditions linked to natural states (such as ageing or menopause) when they are uncommon or can cause significant or permanent harm.",
+    "source_ref": "SRC-CFR-21-101.93",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+    "source_title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+    "source_date": "2016-07-29",
+    "citation": "21 CFR 101.93(g)(2)(ii)-(iii)",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Relieves joint pain and stiffness.",
+      "Reduces the swelling and itching of irritated eyes.",
+      "Stops hot flashes for good."
+    ],
+    "compliant_examples": [
+      "Supports joint comfort after exercise.* (only with substantiation and no disease context)"
+    ],
+    "fix_patterns": [
+      "Remove the symptom language or reword to a normal-function benefit the company can substantiate."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "symptoms",
+      "implied disease"
+    ],
+    "keywords": [
+      "pain",
+      "relief",
+      "relieves",
+      "swelling",
+      "itching",
+      "symptoms",
+      "inflammation"
+    ]
+  },
+  {
+    "id": "FDA-DIS-03",
+    "scope": "FDA",
+    "title": "Disease implied by product name, URL, hashtags or images",
+    "category": "implied_disease_name",
+    "rule_summary": "A product name, web address, hashtag, picture, symbol or vignette can make a disease claim on its own. Names like 'Thyroid Tablet', 'Glaucoma Drop' or 'Anti Stroke', URLs naming a disease, and hashtags such as #hepatitiscure were cited by FDA. Product names are protected, so this is always a decision for the company.",
+    "source_ref": "SRC-CFR-21-101.93",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+    "source_title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+    "source_date": "2016-07-29",
+    "citation": "21 CFR 101.93(g)(2)(iv)(A), (E)",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "CardioGuard Omega-3",
+      "shop.example.com/joint-pain-relief",
+      "#arthritisrelief #curediabetes"
+    ],
+    "compliant_examples": [
+      "PeakFuel Omega-3",
+      "shop.example.com/omega-3"
+    ],
+    "fix_patterns": [
+      "Flag for a decision: rename the product, change the URL slug or drop the hashtag."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "product name",
+      "URL",
+      "hashtag",
+      "imagery"
+    ],
+    "keywords": [
+      "guard",
+      "cure",
+      "relief",
+      "#"
+    ]
+  },
+  {
+    "id": "FDA-DIS-04",
+    "scope": "FDA",
+    "title": "Testimonials, reviews, citations and 'disease' wording count as claims",
+    "category": "testimonial_result",
+    "rule_summary": "Customer reviews posted on the company's own pages, testimonials, video transcripts and social posts are evidence of intended use. If they describe treating a disease, FDA treats them as the company's disease claims. Citing a study or book whose title names a disease, or using the word 'disease' about the product, can do the same.",
+    "source_ref": "SRC-CFR-21-101.93",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+    "source_title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+    "source_date": "2016-07-29",
+    "citation": "21 CFR 101.93(g)(2)(iv)(C)-(D); 21 CFR 201.128",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "\"These have helped my anxiety so much.\" (review shown on the product page)",
+      "As featured in 'Reverse Arthritis Naturally'."
+    ],
+    "compliant_examples": [
+      "\"I like that the label shows the EPA and DHA amounts.\""
+    ],
+    "fix_patterns": [
+      "Remove or replace testimonials that describe disease outcomes.",
+      "Drop citations whose titles name a disease."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "testimonials",
+      "reviews",
+      "citations"
+    ],
+    "keywords": [
+      "helped my",
+      "my doctor",
+      "review",
+      "testimonial"
+    ]
+  },
+  {
+    "id": "FDA-DIS-05",
+    "scope": "FDA",
+    "title": "Comparisons to drugs or substitutes for therapy",
+    "category": "drug_comparison",
+    "rule_summary": "Saying a supplement belongs to a class of drugs (for example 'natural antibiotic'), works like or replaces a drug or therapy, or boosts a drug's effect is a disease claim.",
+    "source_ref": "SRC-CFR-21-101.93",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+    "source_title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+    "source_date": "2016-07-29",
+    "citation": "21 CFR 101.93(g)(2)(v)-(vii)",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Works like a statin, without the prescription.",
+      "A natural antibiotic.",
+      "An alternative to prescription antidepressants."
+    ],
+    "compliant_examples": [
+      "Provides EPA and DHA, omega-3 fatty acids found in fish."
+    ],
+    "fix_patterns": [
+      "Delete the comparison."
+    ],
+    "auto_fixable": true,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "drug comparison"
+    ],
+    "keywords": [
+      "like a",
+      "alternative to",
+      "instead of",
+      "antibiotic",
+      "prescription",
+      "statin",
+      "steroid",
+      "without the side effects"
+    ]
+  },
+  {
+    "id": "FDA-DIS-06",
+    "scope": "FDA",
+    "title": "Cure, treat, prevent, mitigate and hedged versions of them",
+    "category": "cure_treat_prevent",
+    "rule_summary": "Verbs like cure, treat, heal, reverse, prevent, fight, dissolve or mitigate, used about a disease, are drug claims. Softening them with 'may help', 'can potentially', 'commonly used for' or 'reduces the risk of' does not change that: FDA cited all of these forms in 2025 letters.",
+    "source_ref": "SRC-CFR-21-101.93",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+    "source_title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+    "source_date": "2016-07-29",
+    "citation": "21 CFR 101.93(g)(2); 21 U.S.C. 343(r)(6)",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Reverses age-related muscle loss.",
+      "May help reduce the risk of kidney stones.",
+      "Commonly used for the signs of a urinary tract infection."
+    ],
+    "compliant_examples": [
+      "Supports muscle strength in adults who do resistance training.* (if substantiated)"
+    ],
+    "fix_patterns": [
+      "Delete the disease verb phrase.",
+      "Replace with a substantiated structure/function statement."
+    ],
+    "auto_fixable": true,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "cure",
+      "treat",
+      "prevent",
+      "hedging"
+    ],
+    "keywords": [
+      "cure",
+      "cures",
+      "treat",
+      "heal",
+      "reverse",
+      "prevent",
+      "fight",
+      "dissolve",
+      "risk of",
+      "commonly used for"
+    ]
+  },
+  {
+    "id": "FDA-DISC-01",
+    "scope": "FDA",
+    "title": "FDA disclaimer must appear word for word",
+    "category": "missing_disclaimer",
+    "rule_summary": "Any structure/function statement needs the FDA disclaimer, word for word: singular when there is one statement, plural when there are several. On a label it must be in bold. It is a protected span: the tool may insert it but never reword it.",
+    "source_ref": "SRC-CFR-21-101.93",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+    "source_title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+    "source_date": "2016-07-29",
+    "citation": "21 CFR 101.93(c); 21 U.S.C. 343(r)(6)(C)",
+    "required_text": [
+      "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+      "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    ],
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "(page with 'supports healthy joints' and no FDA statement)",
+      "Not evaluated by the FDA. Not a medicine."
+    ],
+    "compliant_examples": [
+      "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    ],
+    "fix_patterns": [
+      "Insert the exact required text near the claims or in the footer, linked by an asterisk."
+    ],
+    "auto_fixable": true,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "disclaimer",
+      "required statement",
+      "protected span"
+    ],
+    "keywords": [
+      "evaluated by the food and drug administration"
+    ]
+  },
+  {
+    "id": "FDA-DISC-02",
+    "scope": "FDA",
+    "title": "Disclaimer placement and linking",
+    "category": "disclaimer_placement",
+    "rule_summary": "The disclaimer goes right next to the claim with nothing in between, or is linked to each claim by a symbol such as an asterisk that points to the same symbol next to the disclaimer, on the same panel or page.",
+    "source_ref": "SRC-CFR-21-101.93",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93",
+    "source_title": "21 CFR 101.93 Certain types of statements for dietary supplements",
+    "source_date": "2016-07-29",
+    "citation": "21 CFR 101.93(d)",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Claims marked with asterisks, but the disclaimer sits on a separate 'Terms' page.",
+      "Asterisk after the claim, no matching asterisk at the disclaimer."
+    ],
+    "compliant_examples": [
+      "Supports healthy energy levels.* ... *These statements have not been evaluated ..."
+    ],
+    "fix_patterns": [
+      "Add matching asterisks, or move the disclaimer onto the same page as the claims."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "disclaimer",
+      "placement"
+    ],
+    "keywords": [
+      "*"
+    ]
+  },
+  {
+    "id": "FDA-INT-01",
+    "scope": "FDA",
+    "title": "Every channel counts: websites, social posts, videos and resold brands",
+    "category": "disease_claim",
+    "rule_summary": "FDA judges intended use from all labeling and promotion together: product pages, blog posts, social media captions, hashtags, video transcripts and reviews on the seller's site. A retailer is responsible for disease claims on its own pages even when the brand belongs to someone else. Pages organised by disease ('Recommended package: Cancer') also count.",
+    "source_ref": "SRC-FDA-WL-716286",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/mahita-llc-dba-pushmycart-716286-11172025",
+    "source_title": "Warning Letter: Mahita LLC dba PushMyCart (MARCS-CMS 716286)",
+    "source_date": "2025-11-17",
+    "citation": "21 CFR 201.128 (intended use), as applied in FDA warning letters (2025)",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Suffering from diabetes? Get rid of it with our remedy. #bloodsugarcontrol",
+      "Shop by condition: Arthritis | Gout | Kidney stones"
+    ],
+    "compliant_examples": [
+      "Shop by goal: Training | Daily nutrition | Label-first picks"
+    ],
+    "fix_patterns": [
+      "Remove disease-based navigation, captions and hashtags; review every channel, not only the product page."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "intended use",
+      "social media",
+      "reseller"
+    ],
+    "keywords": [
+      "suffering from",
+      "get rid of",
+      "#"
+    ]
+  },
+  {
+    "id": "FDA-ING-01",
+    "scope": "FDA",
+    "title": "Only real dietary ingredients may be called dietary ingredients",
+    "category": "ingredient_status",
+    "rule_summary": "A dietary ingredient must be a vitamin, mineral, herb or botanical, amino acid, dietary substance, or a concentrate, extract or combination of these. Presenting another substance (FDA's 2025 example: sulbutiamine) as a dietary ingredient is false or misleading labeling. Substances FDA has found unsafe as new dietary ingredients (for example 7-OH) should not be promoted at all.",
+    "source_ref": "SRC-FDA-WL-687832",
+    "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/gluten-free-remedies-llc-687832-04152025",
+    "source_title": "Warning Letter: Gluten Free Remedies LLC (MARCS-CMS 687832)",
+    "source_date": "2025-04-15",
+    "citation": "21 U.S.C. 321(ff)(1); 21 U.S.C. 343(a)(1), as applied in FDA warning letter 687832",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Contains sulbutiamine, a dietary ingredient for brain support.",
+      "Our 7-OH tablets are a natural supplement."
+    ],
+    "compliant_examples": [
+      "Contains vitamin B1 (thiamine)."
+    ],
+    "fix_patterns": [
+      "Flag for a decision by the company and its regulatory adviser; the tool does not rewrite ingredient status."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "landing_page",
+      "email",
+      "blog",
+      "ad_meta",
+      "ad_tiktok",
+      "ad_google"
+    ],
+    "tags": [
+      "ingredient",
+      "NDI"
+    ],
+    "keywords": [
+      "sulbutiamine",
+      "7-oh",
+      "7-hydroxymitragynine",
+      "tianeptine",
+      "kratom"
+    ]
+  }
+]

@@ -10,9 +10,11 @@
   "scripts": {
     "test": "node --test test/*.test.js",
     "testset": "python3 tests/tools/build_test_set.py --check",
-    "check": "python3 tests/tools/build_test_set.py --check && node --test test/*.test.js"
+    "check": "python3 tests/tools/build_test_set.py --check && python3 rulebook/tools/build_rulebook.py --check && node --test test/*.test.js",
+    "rulebook": "python3 rulebook/tools/build_rulebook.py"
   },
   "dependencies": {
+    "ajv": "8.17.1",
     "entities": "9.0.0",
     "fflate": "0.8.3",
     "mdast-util-from-markdown": "2.1.0",

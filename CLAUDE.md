@@ -20,6 +20,8 @@
 - `rulebook/rules/` — rulebook records (section 6.1).
 - `rulebook/precedents/` — warning letters and enforcement cases (section 6.2).
 - `rulebook/patterns/` — "reads as violating" patterns (section 6.3).
+- `rulebook/sources.json`, `rulebook/sources/` — source register and public-domain source texts. Edit records in `rulebook/tools/*_data.py`, then `npm run rulebook`.
+- `src/rulebook.js` — load, validate, staleness, retrieval.
 - `src/` — application code (JavaScript, Node 20+). `src/index.js` = intake, parse + Stage 1 gate, write + round-trip check. `src/formats/` = one reader/writer per format. `src/cli.js` = command-line tool.
 - `test/` — automated tests (`node --test`).
 - `examples/` — sample outputs for the owner to open.

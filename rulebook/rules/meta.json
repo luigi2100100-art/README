@@ -1,0 +1,127 @@
+[
+  {
+    "id": "META-HW-01",
+    "scope": "Meta",
+    "title": "Meta: supplement and weight ads must target adults 18+",
+    "category": "platform_age_targeting",
+    "rule_summary": "Ads for dietary or health supplements and weight loss or gain products must be targeted to people aged 18 or older. Copy that addresses or features teens is a red flag.",
+    "source_ref": "SRC-META-HW",
+    "source_url": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness/",
+    "source_title": "Advertising Standards: Health and Wellness (Transparency Center)",
+    "source_date": "2026-07-23",
+    "citation": "Meta Advertising Standards: Health and Wellness",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Perfect for teens 14 and up!",
+      "Back-to-school energy for students (supplement ad, all ages)."
+    ],
+    "compliant_examples": [
+      "For adults 18 and over."
+    ],
+    "fix_patterns": [
+      "Remove references to minors; remind the company to set 18+ targeting."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "ad_meta"
+    ],
+    "tags": [
+      "Meta",
+      "age"
+    ],
+    "keywords": [
+      "teen",
+      "kids",
+      "students",
+      "under 18",
+      "school"
+    ]
+  },
+  {
+    "id": "META-HW-02",
+    "scope": "Meta",
+    "title": "Meta: no claims to cure listed incurable diseases",
+    "category": "platform_incurable_disease",
+    "rule_summary": "Meta ads may not claim to cure, heal or eliminate diabetes, herpes, thyroid conditions, psoriasis, Ebola, cancer, autism, Alzheimer's, Parkinson's, ALS or HIV, even when the claim comes from health professionals. Meta's rule doesn't cover symptom-management claims, but FDA rules still do.",
+    "source_ref": "SRC-META-HW",
+    "source_url": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness/",
+    "source_title": "Advertising Standards: Health and Wellness (Transparency Center)",
+    "source_date": "2026-07-23",
+    "citation": "Meta Advertising Standards: Health and Wellness",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "Say goodbye to diabetes.",
+      "Heals psoriasis naturally."
+    ],
+    "compliant_examples": [
+      "(No disease claims.)"
+    ],
+    "fix_patterns": [
+      "Delete the claim."
+    ],
+    "auto_fixable": true,
+    "applies_to": [
+      "ad_meta"
+    ],
+    "tags": [
+      "Meta",
+      "disease"
+    ],
+    "keywords": [
+      "diabetes",
+      "herpes",
+      "thyroid",
+      "psoriasis",
+      "cancer",
+      "autism",
+      "alzheimer",
+      "parkinson",
+      "als",
+      "hiv"
+    ]
+  },
+  {
+    "id": "META-HW-03",
+    "scope": "Meta",
+    "title": "Meta: no appearance-shaming or clickbait health claims",
+    "category": "platform_clickbait",
+    "rule_summary": "Weight and cosmetic ads can't attack someone's appearance, body parts or hygiene, or show close-ups of pinched fat. Health ads can't use clickbait: sensational or extreme claims, or promises of specific outcomes within a set time without qualifiers.",
+    "source_ref": "SRC-META-HW",
+    "source_url": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness/",
+    "source_title": "Advertising Standards: Health and Wellness (Transparency Center)",
+    "source_date": "2026-07-23",
+    "citation": "Meta Advertising Standards: Health and Wellness",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "Tired of your flabby arms?",
+      "Lose 10 lbs in 7 days!"
+    ],
+    "compliant_examples": [
+      "Supports your training routine.*"
+    ],
+    "fix_patterns": [
+      "Remove the appearance attack or the timed promise."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "ad_meta"
+    ],
+    "tags": [
+      "Meta",
+      "clickbait",
+      "body image"
+    ],
+    "keywords": [
+      "flabby",
+      "fat",
+      "ugly",
+      "in 7 days",
+      "in 30 days",
+      "overnight",
+      "shocking"
+    ]
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "id": "PAT-01",
+    "name": "Disease word next to the product",
+    "severity": "high",
+    "related_rules": [
+      "FDA-DIS-01",
+      "FTC-NET-01"
+    ],
+    "related_precedents": [
+      "P-013"
+    ],
+    "description": "A disease is named nearby, in a heading, a FAQ question or navigation, while the product claim itself stays in structure/function wording. Read together, the page says the product is for that disease.",
+    "examples": [
+      {
+        "text": "Heading 'Living with arthritis' above 'Supports joint comfort.*'",
+        "why": "The heading supplies the disease the claim is about."
+      },
+      {
+        "text": "FAQ: 'Can I take it for my high blood pressure?' Answer: 'Many customers do.'",
+        "why": "The answer endorses a disease use without stating it."
+      },
+      {
+        "text": "Shop by condition: Diabetes > Blood Sugar Support Formula",
+        "why": "Navigation organised by disease (FDA cited this in 2025)."
+      }
+    ],
+    "usual_fix": "Remove the disease framing (heading, FAQ or navigation); keep the structure/function claim only if substantiated."
+  },
+  {
+    "id": "PAT-02",
+    "name": "Testimonials that describe disease results",
+    "severity": "high",
+    "related_rules": [
+      "FDA-DIS-04",
+      "FTC-TEST-01"
+    ],
+    "related_precedents": [
+      "P-001",
+      "P-020"
+    ],
+    "description": "The company's own copy is careful, but reviews or quotes on the same page describe treating a disease or dramatic results.",
+    "examples": [
+      {
+        "text": "'I have MS and this makes the day easier' shown under a careful product description",
+        "why": "The review supplies a disease use."
+      },
+      {
+        "text": "'My doctor took me off my blood pressure pills' in a customer quote",
+        "why": "Implies the product replaces a drug."
+      },
+      {
+        "text": "Video testimonial: 'My eczema cleared up in a week'",
+        "why": "A disease outcome, presented as typical."
+      }
+    ],
+    "usual_fix": "Remove disease and dramatic-result testimonials; keep ones about taste, label or routine."
+  },
+  {
+    "id": "PAT-03",
+    "name": "Implied before/after",
+    "severity": "medium",
+    "related_rules": [
+      "FTC-BA-01"
+    ],
+    "description": "No 'before' or 'after' words, but the order of the text, dates or numbers set up a transformation story.",
+    "examples": [
+      {
+        "text": "'Week 1: 3 coffees a day.' ... 'Week 6: one.'",
+        "why": "Order and numbers imply a result over time."
+      },
+      {
+        "text": "'I used to dread stairs. Now I take them two at a time.'",
+        "why": "A transformation without the words."
+      },
+      {
+        "text": "Two photos side by side captioned 'January' and 'March'",
+        "why": "Before/after framing through captions."
+      }
+    ],
+    "usual_fix": "Remove the transformation framing or substantiate typical results and show them clearly."
+  },
+  {
+    "id": "PAT-04",
+    "name": "Headline stronger than the fine print",
+    "severity": "high",
+    "related_rules": [
+      "FTC-DISC-01"
+    ],
+    "description": "The headline or hero line promises an outcome; the body or footer quietly takes it back.",
+    "examples": [
+      {
+        "text": "Headline 'Sharper focus from day one'; footer 'We make no health-outcome claims.'",
+        "why": "The footer contradicts the headline."
+      },
+      {
+        "text": "'Double your strength*' ... '*in one study of trained athletes using a different form'",
+        "why": "The asterisk changes the claim, out of sight."
+      },
+      {
+        "text": "Subject line 'Your joint pain fix'; email body only lists ingredients",
+        "why": "The subject line carries the claim."
+      }
+    ],
+    "usual_fix": "Bring the headline down to what the fine print and evidence support."
+  },
+  {
+    "id": "PAT-05",
+    "name": "Study doesn't match the claim",
+    "severity": "high",
+    "related_rules": [
+      "FTC-SUB-03",
+      "FTC-SUB-02"
+    ],
+    "description": "A real study is cited, but its population, dose, form or outcome differs from what the copy implies.",
+    "examples": [
+      {
+        "text": "'Clinically studied ingredient' (study used 3x the dose in the product)",
+        "why": "Dose mismatch."
+      },
+      {
+        "text": "'Proven to improve memory' citing a study in people with impaired circulation",
+        "why": "Population mismatch."
+      },
+      {
+        "text": "'Studies show omega-3 supports the heart' for a product with a different EPA/DHA ratio",
+        "why": "Formulation mismatch."
+      }
+    ],
+    "usual_fix": "State the population and dose the study covers, or remove the claim."
+  },
+  {
+    "id": "PAT-06",
+    "name": "Natural, safe, no side effects, detox",
+    "severity": "high",
+    "related_rules": [
+      "FTC-SAFE-01"
+    ],
+    "related_precedents": [
+      "P-004",
+      "P-012",
+      "P-026"
+    ],
+    "description": "Words that imply safety or purity ('natural', 'gentle', 'no side effects', 'detox', 'flush toxins') suggest a safety or health claim the company can't support.",
+    "examples": [
+      {
+        "text": "'100% natural, so it's safe to take with anything'",
+        "why": "Natural is not proof of safety; it implies no interactions."
+      },
+      {
+        "text": "'Flush the toxins your liver can't handle'",
+        "why": "Implies a liver problem and a detox effect."
+      },
+      {
+        "text": "'Gentle enough for the whole family'",
+        "why": "Implies safety for children and pregnancy."
+      }
+    ],
+    "usual_fix": "Remove the safety implication; keep the relevant warnings."
+  },
+  {
+    "id": "PAT-07",
+    "name": "Positioned against drugs or medical care",
+    "severity": "high",
+    "related_rules": [
+      "FDA-DIS-05",
+      "GOOG-RDT-01"
+    ],
+    "related_precedents": [
+      "P-014",
+      "P-021"
+    ],
+    "description": "The copy sets the product up as an alternative to medicine, doctors or prescriptions without naming a disease.",
+    "examples": [
+      {
+        "text": "'Why reach for pills when nature has an answer?'",
+        "why": "Positions the product as a drug substitute."
+      },
+      {
+        "text": "'What Big Pharma doesn't want you to know'",
+        "why": "Implies suppressed medical efficacy."
+      },
+      {
+        "text": "'Skip the pharmacy line'",
+        "why": "Implies it replaces medication."
+      }
+    ],
+    "usual_fix": "Remove the comparison to medicine."
+  },
+  {
+    "id": "PAT-08",
+    "name": "Hedged claim repeated until it reads as a promise",
+    "severity": "medium",
+    "related_rules": [
+      "FTC-QUAL-01"
+    ],
+    "related_precedents": [
+      "P-024"
+    ],
+    "description": "Each use says 'may' or 'helps', but the same benefit appears so often that the page reads as a promise.",
+    "examples": [
+      {
+        "text": "'May support joint comfort' five times across one landing page",
+        "why": "Repetition outweighs the hedge."
+      },
+      {
+        "text": "'Helps you build muscle' in the subject line, hero, bullets and CTA",
+        "why": "The core message becomes the claim."
+      },
+      {
+        "text": "Every social post in a series ends with 'may boost immunity'",
+        "why": "Repetition across a campaign."
+      }
+    ],
+    "usual_fix": "Group into one decision; keep the claim once with clear limits, or remove it."
+  },
+  {
+    "id": "PAT-09",
+    "name": "Fear or urgency tied to a health outcome",
+    "severity": "medium",
+    "related_rules": [
+      "FTC-URG-01",
+      "FDA-DIS-02"
+    ],
+    "description": "Scarcity, deadlines or fear are linked to a health consequence of not buying.",
+    "examples": [
+      {
+        "text": "'Every day without omega-3, your heart pays the price. Only 12 left.'",
+        "why": "Fear of a disease outcome plus scarcity."
+      },
+      {
+        "text": "'Don't wait until your joints give out'",
+        "why": "Implies prevention of joint disease."
+      },
+      {
+        "text": "'Cold season is here. Stock up before it's too late.'",
+        "why": "Implies cold prevention with urgency."
+      }
+    ],
+    "usual_fix": "Remove the health fear; check any scarcity claim is true."
+  },
+  {
+    "id": "PAT-10",
+    "name": "Disclaimer or 'research only' label that the copy contradicts",
+    "severity": "high",
+    "related_rules": [
+      "FTC-FDA-01",
+      "FTC-DISC-01"
+    ],
+    "related_precedents": [
+      "P-016",
+      "P-020"
+    ],
+    "description": "A disclaimer ('not intended to treat any disease', 'for research use only') sits beside copy that does exactly what it disclaims. FDA and FTC treat the claim as made.",
+    "examples": [
+      {
+        "text": "'Reduces arthritis pain.* (*Not intended to treat any disease)'",
+        "why": "The disclaimer directly contradicts the claim."
+      },
+      {
+        "text": "'For laboratory use only' on a product with dosing instructions and mood reviews",
+        "why": "Marketing shows human use."
+      },
+      {
+        "text": "'For entertainment purposes only' under a clear treatment claim",
+        "why": "Disclaimers can't negate an express claim."
+      }
+    ],
+    "usual_fix": "Change the claim; the disclaimer alone never fixes it."
+  },
+  {
+    "id": "PAT-11",
+    "name": "Disease implied by name, link or hashtag",
+    "severity": "high",
+    "related_rules": [
+      "FDA-DIS-03"
+    ],
+    "related_precedents": [
+      "P-025"
+    ],
+    "description": "The product name, URL slug, hashtags or image alt text name a disease while the visible copy stays careful.",
+    "examples": [
+      {
+        "text": "Product 'GlucoBalance' with copy about 'healthy energy'",
+        "why": "The name implies blood-sugar treatment."
+      },
+      {
+        "text": "Link text 'Learn more' pointing to /joint-pain-relief",
+        "why": "The URL slug names a symptom."
+      },
+      {
+        "text": "Caption ending '#arthritis #naturalcure'",
+        "why": "Hashtags carry the disease claim."
+      }
+    ],
+    "usual_fix": "Decision for the company: rename, change the slug or remove the hashtag."
+  }
+]

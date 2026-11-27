@@ -1,0 +1,28 @@
+{
+  "version": "2026.11.27-84c5bf08",
+  "last_reviewed": "2026-11-27",
+  "counts": {
+    "rules": 37,
+    "precedents": 30,
+    "patterns": 11,
+    "sources": 35
+  },
+  "rules_by_scope": {
+    "fda": 11,
+    "ftc": 18,
+    "google": 2,
+    "meta": 3,
+    "tiktok": 3
+  },
+  "files": [
+    "rulebook/patterns/patterns.json",
+    "rulebook/precedents/fda-warning-letters-2025.json",
+    "rulebook/rules/fda.json",
+    "rulebook/rules/ftc.json",
+    "rulebook/rules/google.json",
+    "rulebook/rules/meta.json",
+    "rulebook/rules/tiktok.json"
+  ],
+  "content_sha256": "84c5bf08afa567fa70592460590398c031306685352cc3eeb652e69b7ba00c5b",
+  "staleness_days": 90
+}

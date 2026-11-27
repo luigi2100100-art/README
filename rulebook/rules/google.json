@@ -1,0 +1,81 @@
+[
+  {
+    "id": "GOOG-US-01",
+    "scope": "Google",
+    "title": "Google: drug-equivalence and disease claims for unapproved products",
+    "category": "platform_unapproved_substance",
+    "rule_summary": "Google doesn't allow ads for products that imply they're as effective as prescription drugs or controlled substances, non-government-approved products implying they're safe or effective for a disease, supplements with active pharmaceutical or dangerous ingredients, products subject to government action or warning, or names confusingly similar to unapproved substances.",
+    "source_ref": "SRC-GOOG-HC",
+    "source_url": "https://support.google.com/adspolicy/answer/176031",
+    "source_title": "Google Ads policy: Healthcare and medicines",
+    "source_date": "2026-11-27",
+    "citation": "Google Ads policy: Healthcare and medicines > Unapproved substances",
+    "last_reviewed": "2026-11-27",
+    "severity": "high",
+    "violating_examples": [
+      "As effective as prescription testosterone.",
+      "Natural cure for arthritis."
+    ],
+    "compliant_examples": [
+      "Creatine monohydrate, 5 g per serving, third-party tested."
+    ],
+    "fix_patterns": [
+      "Delete drug-equivalence and disease language."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "ad_google"
+    ],
+    "tags": [
+      "Google",
+      "unapproved substances"
+    ],
+    "keywords": [
+      "as effective as",
+      "prescription",
+      "cure",
+      "treat"
+    ]
+  },
+  {
+    "id": "GOOG-RDT-01",
+    "scope": "Google",
+    "title": "Google: prescription drug names in ads, keywords and landing pages",
+    "category": "platform_restricted_drug_terms",
+    "rule_summary": "Google restricts prescription drug terms in ads, landing pages and keywords. Supplement copy that names a prescription drug (for example 'a natural Ozempic alternative') risks disapproval as well as an FDA drug-comparison issue.",
+    "source_ref": "SRC-GOOG-HC",
+    "source_url": "https://support.google.com/adspolicy/answer/176031",
+    "source_title": "Google Ads policy: Healthcare and medicines",
+    "source_date": "2026-11-27",
+    "citation": "Google Ads policy: Healthcare and medicines > Restricted drug terms",
+    "last_reviewed": "2026-11-27",
+    "severity": "medium",
+    "violating_examples": [
+      "The natural Ozempic alternative.",
+      "Like Adderall, but natural."
+    ],
+    "compliant_examples": [
+      "(No prescription drug names.)"
+    ],
+    "fix_patterns": [
+      "Remove the drug name."
+    ],
+    "auto_fixable": false,
+    "applies_to": [
+      "ad_google"
+    ],
+    "tags": [
+      "Google",
+      "drug terms"
+    ],
+    "keywords": [
+      "ozempic",
+      "wegovy",
+      "adderall",
+      "xanax",
+      "viagra",
+      "statin",
+      "metformin"
+    ]
+  }
+]

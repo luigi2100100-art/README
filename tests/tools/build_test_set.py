@@ -504,7 +504,7 @@ def build_format(write=True):
     rows = [["Section", "Element", "Copy", "Characters", "Notes"]]
     section = ""
     for kind, val in blocks:
-        items = [("table row", f"{r[0]}: {r[1]}") for r in val[1:]] if kind == "table" else [(kind, val)]
+        items = ([("table header", " | ".join(val[0]))] + [("table row", f"{r[0]}: {r[1]}") for r in val[1:]]) if kind == "table" else [(kind, val)]
         if kind in ("h1", "h2"):
             section = val
         for el, text in items:

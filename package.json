@@ -1,0 +1,23 @@
+{
+  "name": "compliance-review-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Compliance review tool for supplement and wellness marketing copy (see SPEC_v2.md).",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "testset": "python3 tests/tools/build_test_set.py --check",
+    "check": "python3 tests/tools/build_test_set.py --check && node --test test/*.test.js"
+  },
+  "dependencies": {
+    "entities": "9.0.0",
+    "fflate": "0.8.3",
+    "mdast-util-from-markdown": "2.1.0",
+    "mdast-util-gfm": "3.1.0",
+    "micromark-extension-gfm": "3.0.0",
+    "parse5": "8.1.1"
+  }
+}

@@ -20,7 +20,13 @@
 - `rulebook/rules/` — rulebook records (section 6.1).
 - `rulebook/precedents/` — warning letters and enforcement cases (section 6.2).
 - `rulebook/patterns/` — "reads as violating" patterns (section 6.3).
-- `src/` — application code.
+- `src/` — application code (JavaScript, Node 20+). `src/index.js` = intake, parse + Stage 1 gate, write + round-trip check. `src/formats/` = one reader/writer per format. `src/cli.js` = command-line tool.
+- `test/` — automated tests (`node --test`).
+- `examples/` — sample outputs for the owner to open.
+
+# Commands
+- Full test set: `npm run check` (test-set integrity, then all tests).
+- Parse a file: `node src/cli.js parse <file>`.
 
 # Session routine
 - At the start of every session, read SPEC_v2.md and PROGRESS.md, then continue from the next unfinished step.

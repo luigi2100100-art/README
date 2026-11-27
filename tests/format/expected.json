@@ -105,7 +105,7 @@
       "copy_cells": "Sheet 'Landing page', column C, rows 2 onward",
       "never_edit": "Every formula cell (column D on 'Landing page', C2 on 'Pricing') and every number cell",
       "not_copy": "Columns A, B and E on 'Landing page' are labels and internal notes; the 'Pricing' sheet holds numbers and item labels",
-      "rows": 56,
+      "rows": 57,
       "notes": "Cell addresses (e.g. 'Landing page'!C2) are the unit locations."
     }
   }

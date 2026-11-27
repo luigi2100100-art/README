@@ -21,3 +21,7 @@
 - `rulebook/precedents/` — warning letters and enforcement cases (section 6.2).
 - `rulebook/patterns/` — "reads as violating" patterns (section 6.3).
 - `src/` — application code.
+
+# Session routine
+- At the start of every session, read SPEC_v2.md and PROGRESS.md, then continue from the next unfinished step.
+- After each completed step: commit with a clear message, and update PROGRESS.md (what is done, what is next, last test results).

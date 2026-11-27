@@ -24,11 +24,14 @@ Build order: SPEC_v2.md section 13.
 ## Next
 - **Step 5: Detection passes** (Stage 3, passes 1, 2 and 5) as a command-line tool, using Claude. Needs an Anthropic API key, then measuring on the test set.
 
+## Owner decisions (2026-11-27)
+- Risk appetite: **standard** for both products.
+- Web app stays at **step 11** (no early test page).
+- Step 5 starts only when the owner asks for the secure API-key form.
+
 ## Waiting on the owner
-- An Anthropic API key for step 5 (entered through the secure form, never in chat).
-- The official link for TikTok's "Weight Management and Body Image" policy.
-- Confirm `risk_appetite` for each product (assumed "standard").
-- Decision: keep the web app at step 11, or build a bare test page earlier.
+- The owner will ask for the secure form to enter the Anthropic API key; then step 5 starts.
+- The official link for TikTok's "Weight Management and Body Image" policy (owner will send it).
 
 ## Last test results (2026-11-27)
 - `npm run check`: test-set integrity passed, rulebook integrity passed; **39 of 39 tests passed**.

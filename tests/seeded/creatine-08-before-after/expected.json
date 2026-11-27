@@ -1,0 +1,42 @@
+{
+  "case_id": "creatine-08-before-after",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-08-before-after/document.docx",
+  "document_sha256": "bfdd74eaea6a959d0ef151a10d6e4cf3215c682d43307f8007519c959031eb22",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "- Someone who is vegetarian.",
+      "text": "Before: 145 lbs and stuck on the same bench press for a year. After 8 weeks on PeakFuel: 162 lbs and a new personal best.",
+      "style_from": "ATP stands for adenosine triphosphate"
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "before_after",
+      "also_accept": [
+        "testimonial_result"
+      ],
+      "severity": "medium",
+      "quote": "Before: 145 lbs and stuck on the same bench press for a year.",
+      "allowed_states": [
+        "needs_decision",
+        "fixed"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

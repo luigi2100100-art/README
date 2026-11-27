@@ -1,0 +1,38 @@
+{
+  "case_id": "omega3-06-wrong-dose",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-06-wrong-dose/document.docx",
+  "document_sha256": "561abda8c16d4262a49aac00dd659774a2499232b692e295260dcf214573943f",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "replace",
+      "find": "480 mg EPA and 320 mg DHA per 2-softgel serving.",
+      "with": "580 mg EPA and 320 mg DHA per 2-softgel serving."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "context_mismatch_dose",
+      "severity": "medium",
+      "quote": "580 mg EPA",
+      "allowed_states": [
+        "context_mismatch"
+      ],
+      "note": "Product facts say 480 mg EPA. Must never be auto-fixed."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

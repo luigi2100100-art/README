@@ -1,0 +1,42 @@
+{
+  "case_id": "omega3-08-before-after",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-08-before-after/document.docx",
+  "document_sha256": "3c70edde53bd40473809dfbfc7aef06543da0d63a89e98687ea3e81cb13cebbf",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "People who tried fish oil and stopped.",
+      "text": "Before PeakFuel: stiff knees every morning and three coffees to get going. After 30 days: up early, out for a run, no second coffee.",
+      "style_from": "Swap part of the flour in a bread dough"
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "before_after",
+      "also_accept": [
+        "testimonial_result"
+      ],
+      "severity": "medium",
+      "quote": "Before PeakFuel: stiff knees every morning",
+      "allowed_states": [
+        "needs_decision",
+        "fixed"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

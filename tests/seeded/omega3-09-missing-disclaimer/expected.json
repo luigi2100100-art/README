@@ -1,0 +1,38 @@
+{
+  "case_id": "omega3-09-missing-disclaimer",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-09-missing-disclaimer/document.docx",
+  "document_sha256": "636be52c8fc6ead55080fa14820f2599903f7b162e9755790e2de2d890bec7cd",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "delete_paragraph",
+      "find": "These statements have not been evaluated by the Food and Drug Administration."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "missing_disclaimer",
+      "severity": "high",
+      "quote": null,
+      "allowed_states": [
+        "fixed",
+        "needs_decision"
+      ],
+      "note": "Document-level finding. The fix is inserting the FDA statement word for word."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 0,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

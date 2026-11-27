@@ -1,0 +1,38 @@
+{
+  "case_id": "creatine-09-missing-disclaimer",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-09-missing-disclaimer/document.docx",
+  "document_sha256": "616fa94c6365e96d2551f0f83895a3f361fadc9539d985f98e5a6c109619dbfe",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "delete_paragraph",
+      "find": "These statements have not been evaluated by the Food and Drug Administration."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "missing_disclaimer",
+      "severity": "high",
+      "quote": null,
+      "allowed_states": [
+        "fixed",
+        "needs_decision"
+      ],
+      "note": "Document-level finding. The fix is inserting the FDA statement word for word."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 0,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

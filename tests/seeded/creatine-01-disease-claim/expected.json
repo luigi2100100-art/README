@@ -1,0 +1,38 @@
+{
+  "case_id": "creatine-01-disease-claim",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-01-disease-claim/document.docx",
+  "document_sha256": "b63f16fe21066040108cb282fa90c7f4ac579f37c3170e987ad940be63c5e2ab",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "- Supports intramuscular creatine stores",
+      "text": "- Eases symptoms of depression. Creatine has been shown to lift mood in people with depression."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "disease_claim",
+      "severity": "high",
+      "quote": "Eases symptoms of depression.",
+      "allowed_states": [
+        "fixed",
+        "needs_decision"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

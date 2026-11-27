@@ -1,0 +1,17 @@
+{
+  "about": "What each uploaded file is. 'document' = copy the tool checks (clean set). 'source' = Tier 2 material the claim ledger is built from (step 8). Channel follows SPEC_v2 Tier 0: landing_page, email, blog, ad_meta, ad_tiktok, ad_google. Organic Instagram and TikTok posts are treated as the Meta and TikTok channels.",
+  "files": [
+    {"file": "Copy of PeakFuel Omega-3 Landing Page V10.docx", "product": "omega3", "role": "document", "channel": "landing_page"},
+    {"file": "Copy of PeakFuel_Omega3_SEO_Blog_Fish_Oil_vs_Omega3.docx", "product": "omega3", "role": "document", "channel": "blog"},
+    {"file": "Copy of PeakFuel_Omega3_Instagram_Series_Lite5_v4.docx", "product": "omega3", "role": "document", "channel": "ad_meta"},
+    {"file": "Copy of PeakFuel_Omega3_TikTok_Series_Lite9.docx", "product": "omega3", "role": "document", "channel": "ad_tiktok"},
+    {"file": "Copy of Executive_Research_Brief_Omega-3_V5.1_Writer-Facing.docx", "product": "omega3", "role": "source", "source_type": "research_brief"},
+    {"file": "Copy of PeakFuel_Omega-3_FAQ_V4.4.docx", "product": "omega3", "role": "source", "source_type": "faq"},
+    {"file": "Landing Page V8.7.docx", "product": "creatine", "role": "document", "channel": "landing_page"},
+    {"file": "3 Email Sequence FINAL.docx", "product": "creatine", "role": "document", "channel": "email"},
+    {"file": "Creatine monohydrate- what it is and what to check on the label Blog 1.docx V6.docx", "product": "creatine", "role": "document", "channel": "blog"},
+    {"file": "Creatine Monohydrate, Claim by Claim- The Group and Dose Behind Each Verdict FINAL V2.docx", "product": "creatine", "role": "document", "channel": "blog"},
+    {"file": "Executive_Research_Brief_Creatine_V3_Writer-Facing.docx", "product": "creatine", "role": "source", "source_type": "research_brief"},
+    {"file": "PeakFuel_Creatine_Monohydrate-_Customer_Support_Knowledge_Base_FAQ_V6.docx", "product": "creatine", "role": "source", "source_type": "faq"}
+  ]
+}

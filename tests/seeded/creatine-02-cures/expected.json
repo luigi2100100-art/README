@@ -1,0 +1,41 @@
+{
+  "case_id": "creatine-02-cures",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-02-cures/document.docx",
+  "document_sha256": "0cce7f4a06fd231840379792e328f5b367493977339e19d7b01411313c0c8d46",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "- Someone buying a first supplement.",
+      "text": "- Someone over 60. PeakFuel Creatine reverses sarcopenia, the muscle loss that comes with age."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "cure_treat_prevent",
+      "also_accept": [
+        "disease_claim"
+      ],
+      "severity": "high",
+      "quote": "PeakFuel Creatine reverses sarcopenia",
+      "allowed_states": [
+        "fixed",
+        "needs_decision"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

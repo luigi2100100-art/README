@@ -1,0 +1,17 @@
+{
+  "product_id": "omega3",
+  "product_name": "PeakFuel Omega-3",
+  "ingredients": [
+    {"name": "fish oil concentrate (anchovy, sardine)", "amount": 1200, "unit": "mg"},
+    {"name": "EPA", "amount": 480, "unit": "mg"},
+    {"name": "DHA", "amount": 320, "unit": "mg"},
+    {"name": "total omega-3 fatty acids", "amount": 900, "unit": "mg"}
+  ],
+  "other_ingredients": ["gelatin (bovine)", "mixed tocopherols", "rosemary extract"],
+  "serving_size": "2 softgels",
+  "servings_per_container": 30,
+  "target_age_min": 18,
+  "country": "US",
+  "risk_appetite": "standard",
+  "source": "Taken from 'Copy of PeakFuel Omega-3 Landing Page V10.docx' and the Omega-3 FAQ V4.4. risk_appetite is an assumption until the owner confirms it."
+}

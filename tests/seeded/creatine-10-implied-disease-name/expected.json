@@ -1,0 +1,42 @@
+{
+  "case_id": "creatine-10-implied-disease-name",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-10-implied-disease-name/document.docx",
+  "document_sha256": "c61324cadf18681c31733ab1510b4bb510754147ad2b5bd2f094306e35cf7cf9",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "replace",
+      "find": "PeakFuel Creatine Monohydrate",
+      "exact": true,
+      "with": "PeakFuel SarcoStop Creatine Monohydrate"
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "implied_disease_name",
+      "also_accept": [
+        "disease_claim"
+      ],
+      "severity": "high",
+      "quote": "PeakFuel SarcoStop Creatine Monohydrate",
+      "allowed_states": [
+        "needs_decision"
+      ],
+      "note": "Product names are protected spans, so this can only be a decision."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

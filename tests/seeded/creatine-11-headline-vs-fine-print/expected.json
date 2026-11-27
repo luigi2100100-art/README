@@ -1,0 +1,42 @@
+{
+  "case_id": "creatine-11-headline-vs-fine-print",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-11-headline-vs-fine-print/document.docx",
+  "document_sha256": "5de3d270c3460fbc98cef20d8fe29db6f501149b260fa490aaf2be091f35dde4",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "replace_paragraph",
+      "find": "One ingredient, one serving, and the label to check it against.",
+      "text": "Double your strength in 30 days."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "headline_vs_fine_print",
+      "also_accept": [
+        "unsupported_claim"
+      ],
+      "severity": "high",
+      "quote": "Double your strength in 30 days.",
+      "related_quote": "The finding on muscle power below is stated for that kind of training specifically.",
+      "allowed_states": [
+        "needs_decision",
+        "fixed"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

@@ -1,0 +1,141 @@
+{
+  "about": "Clean-set expectations (SPEC_v2 10.1). Documents should produce no high-severity findings, at most 2 false flags, no edits to protected spans, and the FDA statement untouched. Sources are Tier 2 material, not checked as copy.",
+  "products": {
+    "omega3": "tests/products/omega3.json",
+    "creatine": "tests/products/creatine.json"
+  },
+  "files": [
+    {
+      "file": "Copy of PeakFuel Omega-3 Landing Page V10.docx",
+      "sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+      "product": "omega3",
+      "role": "document",
+      "words": 1142,
+      "channel": "landing_page",
+      "fda_statement_count": 1,
+      "max_high_severity_findings": 0,
+      "max_false_flags": 2,
+      "max_protected_span_edits": 0,
+      "fda_statement_must_be_untouched": true
+    },
+    {
+      "file": "Copy of PeakFuel_Omega3_SEO_Blog_Fish_Oil_vs_Omega3.docx",
+      "sha256": "8954358ddffe5863261a60f41c9a8b2c2e3632382b58b5a034b81b77e0fa5f86",
+      "product": "omega3",
+      "role": "document",
+      "words": 1243,
+      "channel": "blog",
+      "fda_statement_count": 1,
+      "max_high_severity_findings": 0,
+      "max_false_flags": 2,
+      "max_protected_span_edits": 0,
+      "fda_statement_must_be_untouched": true
+    },
+    {
+      "file": "Copy of PeakFuel_Omega3_Instagram_Series_Lite5_v4.docx",
+      "sha256": "798506bc719473c00136c7e63a9a7d9f8db4ec0137093b261876b8935ff4f2ca",
+      "product": "omega3",
+      "role": "document",
+      "words": 3261,
+      "channel": "ad_meta",
+      "fda_statement_count": 5,
+      "max_high_severity_findings": 0,
+      "max_false_flags": 2,
+      "max_protected_span_edits": 0,
+      "fda_statement_must_be_untouched": true
+    },
+    {
+      "file": "Copy of PeakFuel_Omega3_TikTok_Series_Lite9.docx",
+      "sha256": "828a536e0a719e5ff14576ec6c6d1dbc567fec7629d6ab342d970af5226a6c50",
+      "product": "omega3",
+      "role": "document",
+      "words": 2642,
+      "channel": "ad_tiktok",
+      "fda_statement_count": 4,
+      "max_high_severity_findings": 0,
+      "max_false_flags": 2,
+      "max_protected_span_edits": 0,
+      "fda_statement_must_be_untouched": true
+    },
+    {
+      "file": "Copy of Executive_Research_Brief_Omega-3_V5.1_Writer-Facing.docx",
+      "sha256": "610e930fe29b7ea35a1a315b543fa720c16320c021ed4f997d957c1a9689120a",
+      "product": "omega3",
+      "role": "source",
+      "words": 4823
+    },
+    {
+      "file": "Copy of PeakFuel_Omega-3_FAQ_V4.4.docx",
+      "sha256": "a110dae61595d5d29d8759c9657370861b1c12010c950b43f82b88e65f6392fc",
+      "product": "omega3",
+      "role": "source",
+      "words": 3077
+    },
+    {
+      "file": "Landing Page V8.7.docx",
+      "sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+      "product": "creatine",
+      "role": "document",
+      "words": 659,
+      "channel": "landing_page",
+      "fda_statement_count": 1,
+      "max_high_severity_findings": 0,
+      "max_false_flags": 2,
+      "max_protected_span_edits": 0,
+      "fda_statement_must_be_untouched": true
+    },
+    {
+      "file": "3 Email Sequence FINAL.docx",
+      "sha256": "7d937787d8a1e8833566c998f2f2ec73ad8e817000c3af7c076164560e438731",
+      "product": "creatine",
+      "role": "document",
+      "words": 990,
+      "channel": "email",
+      "fda_statement_count": 3,
+      "max_high_severity_findings": 0,
+      "max_false_flags": 2,
+      "max_protected_span_edits": 0,
+      "fda_statement_must_be_untouched": true
+    },
+    {
+      "file": "Creatine monohydrate- what it is and what to check on the label Blog 1.docx V6.docx",
+      "sha256": "9c028a0a174e4ad55412ab83beb2e82c10c2dae30c1bf77fcdecd9954607d066",
+      "product": "creatine",
+      "role": "document",
+      "words": 1199,
+      "channel": "blog",
+      "fda_statement_count": 1,
+      "max_high_severity_findings": 0,
+      "max_false_flags": 2,
+      "max_protected_span_edits": 0,
+      "fda_statement_must_be_untouched": true
+    },
+    {
+      "file": "Creatine Monohydrate, Claim by Claim- The Group and Dose Behind Each Verdict FINAL V2.docx",
+      "sha256": "2c87f9dc1443fa3ac362cbe68e12ef726ed147492d80feba3d3889b058df4f0a",
+      "product": "creatine",
+      "role": "document",
+      "words": 1069,
+      "channel": "blog",
+      "fda_statement_count": 1,
+      "max_high_severity_findings": 0,
+      "max_false_flags": 2,
+      "max_protected_span_edits": 0,
+      "fda_statement_must_be_untouched": true
+    },
+    {
+      "file": "Executive_Research_Brief_Creatine_V3_Writer-Facing.docx",
+      "sha256": "5f2e6218f0e4449f0566cdee58cb5eabda41738a53b84292a69bbfa8b598feb7",
+      "product": "creatine",
+      "role": "source",
+      "words": 2030
+    },
+    {
+      "file": "PeakFuel_Creatine_Monohydrate-_Customer_Support_Knowledge_Base_FAQ_V6.docx",
+      "sha256": "cade5cc60b06602aa2ac1aedb2f6971f0e3ef5fef0260ff1e95a2ea26910df02",
+      "product": "creatine",
+      "role": "source",
+      "words": 2454
+    }
+  ]
+}

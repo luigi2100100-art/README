@@ -1,0 +1,43 @@
+{
+  "case_id": "omega3-10-implied-disease-name",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-10-implied-disease-name/document.docx",
+  "document_sha256": "f6790b43dac1cd1d29db2a3e480ef19bcc92421a7e84c4418e107045d0499714",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "replace",
+      "find": "PeakFuel Omega-3",
+      "exact": true,
+      "nth": 1,
+      "with": "PeakFuel CardioGuard Omega-3"
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "implied_disease_name",
+      "also_accept": [
+        "disease_claim"
+      ],
+      "severity": "high",
+      "quote": "PeakFuel CardioGuard Omega-3",
+      "allowed_states": [
+        "needs_decision"
+      ],
+      "note": "Product names are protected spans, so this can only be a decision."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

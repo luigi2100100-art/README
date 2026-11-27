@@ -1,0 +1,14 @@
+{
+  "product_id": "creatine",
+  "product_name": "PeakFuel Creatine Monohydrate",
+  "ingredients": [
+    {"name": "creatine monohydrate", "amount": 5, "unit": "g"}
+  ],
+  "other_ingredients": [],
+  "serving_size": "1 level scoop (5 g)",
+  "servings_per_container": 60,
+  "target_age_min": 19,
+  "country": "US",
+  "risk_appetite": "standard",
+  "source": "Taken from 'Landing Page V8.7.docx' and the Creatine Research Brief V3. risk_appetite is an assumption until the owner confirms it."
+}

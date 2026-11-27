@@ -1,0 +1,38 @@
+{
+  "case_id": "creatine-06-wrong-dose",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-06-wrong-dose/document.docx",
+  "document_sha256": "be21e147ac8317a8ceeb10dcc0233fb9cafcd6e763ce907521aae09c15692172",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "replace",
+      "find": "Mix one level scoop (5 g)",
+      "with": "Mix one level scoop (3 g)"
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "context_mismatch_dose",
+      "severity": "medium",
+      "quote": "one level scoop (3 g)",
+      "allowed_states": [
+        "context_mismatch"
+      ],
+      "note": "Product facts and the rest of the page say 5 g. Must never be auto-fixed."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

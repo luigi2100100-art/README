@@ -1,0 +1,38 @@
+{
+  "case_id": "omega3-07-age-mismatch",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-07-age-mismatch/document.docx",
+  "document_sha256": "9b55d8a43be3997c4535c00128a320c10b1719354c4034a3af90b3d7f517b5b6",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "replace",
+      "find": "For adults who want the EPA and DHA figures in writing",
+      "with": "For teens 14 and up and adults who want the EPA and DHA figures in writing"
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "context_mismatch_age",
+      "severity": "medium",
+      "quote": "For teens 14 and up",
+      "allowed_states": [
+        "context_mismatch"
+      ],
+      "note": "Product facts and label say adults 18 and over."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

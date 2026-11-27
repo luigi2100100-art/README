@@ -1,0 +1,44 @@
+{
+  "case_id": "creatine-14-hidden-subscription-terms",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-14-hidden-subscription-terms/document.docx",
+  "document_sha256": "691898a1d837e6a70c2efd94bc578ab5a71d021444b45eb26db973fb7b3777d6",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "append",
+      "find": "Order the 60-serving tub of PeakFuel Creatine Monohydrate.",
+      "text": " Subscribe and save 15%."
+    },
+    {
+      "op": "insert_after",
+      "anchor": "These statements have not been evaluated by the Food and Drug Administration.",
+      "text": "By ordering you agree to automatic monthly shipments billed to your card until cancelled in writing."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "hidden_subscription_terms",
+      "severity": "high",
+      "quote": "By ordering you agree to automatic monthly shipments billed to your card until cancelled in writing.",
+      "related_quote": "Subscribe and save 15%.",
+      "allowed_states": [
+        "needs_decision"
+      ],
+      "note": "Renewal terms hidden after the FDA statement; cancellation in writing only."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

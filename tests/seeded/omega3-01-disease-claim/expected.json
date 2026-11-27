@@ -1,0 +1,38 @@
+{
+  "case_id": "omega3-01-disease-claim",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-01-disease-claim/document.docx",
+  "document_sha256": "5629dc223a678c469b828f8be68b8ed9d550ff0af23f126ba3110409f404c758",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "What they can change.",
+      "text": "Who it helps. Regular EPA and DHA intake helps lower the risk of heart attack and stroke."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "disease_claim",
+      "severity": "high",
+      "quote": "helps lower the risk of heart attack and stroke",
+      "allowed_states": [
+        "fixed",
+        "needs_decision"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

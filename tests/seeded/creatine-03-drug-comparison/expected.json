@@ -1,0 +1,41 @@
+{
+  "case_id": "creatine-03-drug-comparison",
+  "base_file": "tests/clean/Landing Page V8.7.docx",
+  "base_sha256": "df8492e243e3437fe5e310686fabe04bcba5d7f95ba121a79bcf39d35d589bfe",
+  "document": "tests/seeded/creatine-03-drug-comparison/document.docx",
+  "document_sha256": "0a78e168cfdf0479ff06d6580bee05ff214167492b1dce336af3dd41de56c34a",
+  "product": "creatine",
+  "product_facts": "tests/products/creatine.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "- Supports muscle power and training volume",
+      "text": "- Results comparable to anabolic steroids, without the prescription or the side effects."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "drug_comparison",
+      "also_accept": [
+        "safety_overclaim"
+      ],
+      "severity": "high",
+      "quote": "Results comparable to anabolic steroids, without the prescription or the side effects.",
+      "allowed_states": [
+        "fixed",
+        "needs_decision"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

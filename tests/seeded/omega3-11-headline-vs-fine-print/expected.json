@@ -1,0 +1,42 @@
+{
+  "case_id": "omega3-11-headline-vs-fine-print",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-11-headline-vs-fine-print/document.docx",
+  "document_sha256": "e1d2dbcb4e8bdbda95e44a87a886231424d27a3b5f6f6c9bbad84f84097d86d0",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "replace_paragraph",
+      "find": "EPA and DHA are printed on the front panel, and the lot number",
+      "text": "The omega-3 that sharpens memory and focus from the very first softgel."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "headline_vs_fine_print",
+      "also_accept": [
+        "unsupported_claim"
+      ],
+      "severity": "medium",
+      "quote": "sharpens memory and focus from the very first softgel",
+      "related_quote": "makes no health-outcome claims",
+      "allowed_states": [
+        "needs_decision",
+        "fixed"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "omega3-03-drug-comparison",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-03-drug-comparison/document.docx",
+  "document_sha256": "50a6f63b0d750b9c6546c9ea44d7d6d5c5c53350b64fefc581246a57c4764bca",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "Where they go.",
+      "text": "Works like a statin for your cholesterol, without the prescription."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "drug_comparison",
+      "also_accept": [
+        "disease_claim"
+      ],
+      "severity": "high",
+      "quote": "Works like a statin for your cholesterol, without the prescription.",
+      "allowed_states": [
+        "fixed",
+        "needs_decision"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

@@ -1,0 +1,61 @@
+{
+  "case_id": "omega3-12-repeated-hedged-claim",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-12-repeated-hedged-claim/document.docx",
+  "document_sha256": "267a4a07fcc7219bf134f2f35e17550dac9fafe99b2411a0f7efdfa48c100616",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "append",
+      "find": "EPA and DHA are printed on the front panel, and the lot number",
+      "text": " It may support joint comfort."
+    },
+    {
+      "op": "append",
+      "find": "Where they go.",
+      "text": " This may support joint comfort."
+    },
+    {
+      "op": "append",
+      "find": "People who rarely eat oily fish.",
+      "text": " It may support joint comfort."
+    },
+    {
+      "op": "append",
+      "find": "Label-readers.",
+      "text": " It may support joint comfort."
+    },
+    {
+      "op": "insert_after",
+      "anchor": "One-off bottle or a 30-day subscription",
+      "text": "Many people take it every day because it may support joint comfort.",
+      "style_from": "A bottle of PeakFuel Omega-3 is $32.00"
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "repeated_hedged_claim",
+      "severity": "medium",
+      "quote": "may support joint comfort",
+      "occurrences": 5,
+      "expected_issue_count": 1,
+      "allowed_states": [
+        "needs_decision"
+      ],
+      "note": "Five uses of one claim must become one grouped issue, not five."
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

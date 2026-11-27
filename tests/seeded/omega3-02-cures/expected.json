@@ -1,0 +1,41 @@
+{
+  "case_id": "omega3-02-cures",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-02-cures/document.docx",
+  "document_sha256": "445349e5f46680c354c54b9451f4c22a9c72971bf2dac5f1ab8ba068fee2a198",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "People who rarely eat oily fish.",
+      "text": "People with dry eye. PeakFuel Omega-3 cures dry eye in as little as two weeks."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "cure_treat_prevent",
+      "also_accept": [
+        "disease_claim"
+      ],
+      "severity": "high",
+      "quote": "PeakFuel Omega-3 cures dry eye in as little as two weeks",
+      "allowed_states": [
+        "fixed",
+        "needs_decision"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}

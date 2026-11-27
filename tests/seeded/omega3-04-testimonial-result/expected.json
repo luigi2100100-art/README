@@ -1,0 +1,39 @@
+{
+  "case_id": "omega3-04-testimonial-result",
+  "base_file": "tests/clean/Copy of PeakFuel Omega-3 Landing Page V10.docx",
+  "base_sha256": "e1685df5da2ffa699839f69319e834caa77b48b11299829cdb83d3d531011e67",
+  "document": "tests/seeded/omega3-04-testimonial-result/document.docx",
+  "document_sha256": "63ca22e2d181a99cbb7b21287741281df48da63d8f5c7c94e037728969483cb0",
+  "product": "omega3",
+  "product_facts": "tests/products/omega3.json",
+  "channel": "landing_page",
+  "sources": "none (Rules-only mode)",
+  "edits": [
+    {
+      "op": "insert_after",
+      "anchor": "What people ask about fish oil before a first order",
+      "text": "\"Two weeks on PeakFuel and my brain fog was gone. I haven't missed a deadline since.\" (Dana K., verified buyer)",
+      "style_from": "PeakFuel makes no health-outcome claims."
+    }
+  ],
+  "expected_findings": [
+    {
+      "id": "E1",
+      "category": "testimonial_result",
+      "severity": "medium",
+      "quote": "Two weeks on PeakFuel and my brain fog was gone. I haven't missed a deadline since.",
+      "allowed_states": [
+        "needs_decision",
+        "fixed"
+      ]
+    }
+  ],
+  "report_must_not_contain": [
+    "compliant",
+    "approved",
+    "safe to publish"
+  ],
+  "min_issues": 1,
+  "fda_statement_count": 1,
+  "unchanged_text_rule": "Every paragraph not touched by 'edits' is identical to the clean base, so the clean-set expectations still apply to it."
+}
